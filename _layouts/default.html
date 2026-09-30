@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: 'the app where you walk a stranger’s route.' }}">
+  <link rel="icon" href="/assets/icon.png">
+  <link rel="apple-touch-icon" href="/assets/icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  {% unless page.kind == "home" %}
+  <header class="top">
+    <a class="name" href="/">can i walk with you?</a>
+  </header>
+  {% endunless %}
+  <main class="{{ page.kind | default: 'page' }}">
+    {{ content }}
+  </main>
+  <footer class="bottom">
+    <nav>
+      <a href="/privacy/">privacy</a>
+      <a href="/terms/">terms</a>
+      <a href="/support/">support</a>
+    </nav>
+    <p>questions? <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# The site's settings. Change the contact email HERE - every page reads it.
+title: can i walk with you?
+contact_email: thorayaproject@gmail.com
+last_updated: September 30, 2026
+
+# Filled in by Thoraya (see the questions list). Left empty, the pages simply
+# leave these out - nothing half-written ever shows.
+operator_name: ""     # your legal name or business name, as it should appear
+minimum_age: ""       # e.g. 13, 16 or 18
+governing_law: ""     # e.g. the State of California, United States
+
+# Plain pages, no plugins, nothing that tracks anyone.
+markdown: kramdown
+exclude:
+  - README.md
