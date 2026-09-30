@@ -62,7 +62,7 @@ also don't: try to get into someone else's account, collect other people's infor
 - **report** anything that breaks these rules: tap "⋯" on a post, a walk, a profile, a route or a comment. reports come straight to us, and the person you report is never told who reported them.
 - **block** someone to stop seeing each other anywhere in the app. blocking also removes their comments, likes and reposts from your walks and routes.
 - **you can delete comments** on your own walks and routes.
-- **we review reports within 24 hours.** we remove content that breaks these rules. we suspend or remove the accounts that post it, and may do that without warning.
+- **we review reports within 24 hours.** if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. we remove content that breaks these rules. we suspend or remove the accounts that post it, and may do that without warning.
 
 ## 8. walking safely
 

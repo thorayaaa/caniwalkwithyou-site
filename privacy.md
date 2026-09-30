@@ -52,13 +52,14 @@ if you turn notifications on, we keep your iPhone's notification token and your 
 ### walk club and "notify me"
 - if you say yes to the **walk club**, we add your account's email to the walk club list, to tell you about group walks near you and app news now and then.
 - if you ask to be told when **walking with strangers** opens ("notify me"), we keep the email you type in.
-- you can say no or change your mind in settings (walk club emails).
+- every one of these emails has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
+- to have a "notify me" email removed, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> and we'll delete it.
 
 ### reports
-if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us. the person you reported is never told who reported them.
+if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us, and we review reports within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person you reported is never told who reported them.
 
 ### to keep the app safe
-to stop people guessing passwords or overloading the app, the server keeps a count of recent requests from each internet (IP) address. these counts aren't linked to your account.
+to stop people guessing passwords or overloading the app, the server keeps a count of recent requests from each internet (IP) address. these counts aren't linked to your account, and each one is deleted automatically after 30 days.
 
 ## what other people can see
 
@@ -103,7 +104,7 @@ we don't use any analytics, advertising or crash-reporting services.
 - **private stops:** mark what you leave at a stop as private.
 - **location:** you can say no, or choose "while using" instead of "always", in the iPhone's settings. walking and making routes need location to work.
 - **notifications:** turn them off, or choose which ones you get, in settings.
-- **walk club emails:** turn them off in settings.
+- **walk club and "notify me" emails:** tap the unsubscribe link in any of them, or turn walk club emails off in settings.
 - **block and report:** tap "⋯" on a post, a walk, a profile, a route or a comment.
 
 ## deleting your account
@@ -134,7 +135,7 @@ our database provider keeps short-term backups for recovery. deleted data can re
 
 ## how long we keep things
 
-we keep your information while your account exists, and delete it when you delete your account (see above). notifications that have been sent are cleared after 7 days.
+we keep your information while your account exists, and delete it when you delete your account (see above). notifications that have been sent are cleared after 7 days. the counts of requests from each internet address are deleted after 30 days.
 
 ## children
 
