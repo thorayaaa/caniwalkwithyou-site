@@ -54,6 +54,10 @@ if you turn notifications on, we keep your iPhone's notification token and your 
 ### walk club
 - if you say yes to the **walk club**, we add your account's email to the walk club list, to tell you about group walks near you and app news now and then.
 - every walk club email has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
+- the walk club is separate from the app, and for the future. in the app, people never walk together or meet.
+
+### if you subscribe
+Apple handles the payment, and we never see your card or bank details. Apple only tells us whether you have an active subscription and when it renews or ends.
 
 ### reports
 if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us, and we review reports within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. if it's a person, everything of theirs is hidden the same way - their profile, routes, walks, comments, likes, reposts and follows - and their activity sends nobody a notification. the person you reported is never told who reported them.
@@ -87,6 +91,7 @@ we use a few services to run the app. each gets only what it needs.
   - maps and walking directions
   - place search when you make a route (your search words and where you are, to find places near you)
   - turning a location into a place or city name
+  - subscriptions, if you subscribe (Apple takes the payment)
 - **OpenStreetMap** (Nominatim and Overpass) helps find places near a stop, a place's opening hours, and whether a spot looks like a home address. these requests include a location, never your name or account.
 - this website is hosted on **GitHub Pages**. it has no cookies, analytics or tracking.
 
