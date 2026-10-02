@@ -34,7 +34,7 @@ Settings → Privacy & Security → Motion & Fitness → turn on can i walk with
 check they're on in the app (your profile → settings → notifications) and on your iPhone (Settings → Notifications → can i walk with you?).
 
 ### how do I report or block someone?
-tap "⋯" on their post, walk, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person is never told who reported them.
+tap "⋯" on their post, walk, prompt answer, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person is never told who reported them.
 
 ### how do I stop the walk club emails?
 tap "unsubscribe" at the bottom of any of them - one tap and you're off the list. you can also turn them off in the app: your profile → settings → walk club emails.

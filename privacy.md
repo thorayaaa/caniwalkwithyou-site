@@ -29,6 +29,7 @@ can i walk with you? is an iPhone app for walking routes that other people leave
 - **your email address**, so you can sign in, confirm your email with a 6-digit code when you sign up, reset a forgotten password and change your email. if you sign in with Apple, we get the email Apple gives us (which can be a private relay address) and never your Apple password.
 - **your password** is handled by our database provider (Supabase) and stored scrambled (hashed). we never see it.
 - **your handle** (like @walker), and if you add them: a **display name**, **bio**, **profile photo** and **Instagram username**. these are shown on your profile.
+- **that you agreed to the safety note** ("before you start walking") before your first walk, so you aren't asked again on another phone.
 - **until you type the code** from your sign-up email, your account isn't shown to anyone, and the handle you picked is held for you for 24 hours. if the code is never typed, that sign-up and anything attached to it are deleted automatically after 7 days, and the handle is free again.
 
 ### your location
@@ -71,7 +72,7 @@ to stop people guessing passwords or overloading the app, the server keeps a cou
 - **routes** show their line, stops, notes and photos. prompts stay hidden until someone walks the route.
 - your **likes, comments and reposts** can be seen by anyone who can see the post.
 - **walkers to follow:** search suggests people to follow, showing their handle, name, photo and the city of their latest public route or walk. you can stay out of it: settings → "suggest me to others".
-- **blocking** someone hides you from each other completely, and removes their comments, likes and reposts from your walks and routes.
+- **blocking** someone hides you from each other completely, and removes both of your comments, likes and reposts from each other's walks and routes.
 - drafts, walks in progress, your notification settings, who you've blocked, your searches and your reports are never shown to anyone else.
 
 ## who helps us run the app
@@ -106,7 +107,7 @@ we don't use any analytics, advertising or crash-reporting services.
 - **notifications:** turn them off, or choose which ones you get, in settings.
 - **walkers to follow:** turn "suggest me to others" off in settings.
 - **walk club emails:** tap the unsubscribe link in any of them, or turn walk club emails off in settings.
-- **block and report:** tap "⋯" on a post, a walk, a profile, a route or a comment.
+- **block and report:** tap "⋯" on a post, a walk, a prompt answer, a profile, a route or a comment.
 
 ## deleting your account
 
