@@ -3,6 +3,10 @@ title: can i walk with you?
 contact_email: hello@caniwalkwithyou.com
 last_updated: October 1, 2026
 
+# The report email's "hide it now" / "un-hide it" pages send their button here
+# (the report-review Edge Function). Nothing else on the site uses it.
+review_function: https://pencwliltbpwagjteugt.supabase.co/functions/v1/report-review
+
 # Who runs the app, the minimum age and the law that applies. Left empty, the
 # pages simply leave these out - nothing half-written ever shows.
 operator_name: "Thoraya Maronesy"

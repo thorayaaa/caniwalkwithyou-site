@@ -1,0 +1,44 @@
+---
+layout: default
+title: review a report
+noindex: true
+description: hide or un-hide something that was reported.
+---
+<!-- BATCH H2 item 4: the report email's "hide it now" and "un-hide it" links
+     open this page. Opening it does nothing - an email scanner that opens
+     links to check them cannot hide or un-hide anything. Only the button
+     acts: it sends the link's token and action to the report-review
+     function, which then opens /review/done/. -->
+<h1 id="title">review a report</h1>
+<p class="ask" id="ask">that link doesn&rsquo;t work. use the newest report email, or change it in the dashboard.</p>
+<form id="form" method="post" action="{{ site.review_function }}" hidden>
+  <input type="hidden" name="t" id="t">
+  <input type="hidden" name="a" id="a">
+  <button type="submit" class="pill" id="go">hide it</button>
+</form>
+<p class="quiet" id="note" hidden>nothing happens until you tap the button.</p>
+<noscript><p class="quiet">this page needs javascript turned on to read the link.</p></noscript>
+<script>
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var t = q.get('t') || '';
+    var a = q.get('a') || '';
+    if (!/^[0-9a-f]{64}$/.test(t) || (a !== 'hide' && a !== 'unhide')) return;
+    var hide = a === 'hide';
+    document.getElementById('title').textContent = hide ? 'hide it?' : 'un-hide it?';
+    document.getElementById('ask').textContent = hide
+      ? 'this hides what was reported from everyone but the person who posted it, until you un-hide it.'
+      : 'this shows it to everyone again. it only hides by itself again if 3 new people report it.';
+    document.getElementById('t').value = t;
+    document.getElementById('a').value = a;
+    var go = document.getElementById('go');
+    go.textContent = hide ? 'hide it' : 'un-hide it';
+    var form = document.getElementById('form');
+    form.hidden = false;
+    document.getElementById('note').hidden = false;
+    form.addEventListener('submit', function () {
+      go.disabled = true;
+      go.textContent = hide ? 'hiding…' : 'un-hiding…';
+    });
+  })();
+</script>
