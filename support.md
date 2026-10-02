@@ -14,6 +14,9 @@ need help, found something broken, or want to report something? email <a href="m
 ### I forgot my password
 on the sign-in screen, tap "forgot password?" and enter your email or handle. we'll email you a code to set a new one. accounts made with Sign in with Apple don't have a password - just sign in with Apple again.
 
+### I didn't get my sign-up code
+when you sign up with email, we send a 6-digit code to confirm it. check your spam folder, then tap "send a new code" on the code page (you can ask for a new one after a minute). if the code is never typed, the sign-up is deleted after 7 days and you can start again.
+
 ### how do I change my email or password?
 your profile → settings (the gear) → "change email" or "change password".
 
@@ -33,14 +36,11 @@ check they're on in the app (your profile → settings → notifications) and on
 ### how do I report or block someone?
 tap "⋯" on their post, walk, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person is never told who reported them.
 
-### how do I stop the walk club or "notify me" emails?
-tap "unsubscribe" at the bottom of any of them - one tap and you're off the list. you can also turn walk club emails off in the app: your profile → settings → walk club emails. to have a "notify me" email deleted, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+### how do I stop the walk club emails?
+tap "unsubscribe" at the bottom of any of them - one tap and you're off the list. you can also turn them off in the app: your profile → settings → walk club emails.
 
 ### how do I delete my account?
 your profile → settings → delete account, then tap "continue" and type "delete". our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept.
-
-### where are the routes?
-so far, routes are mostly in San Diego. make one where you are - someone might walk it.
 
 ## something unsafe?
 

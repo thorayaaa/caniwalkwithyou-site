@@ -26,14 +26,15 @@ can i walk with you? is an iPhone app for walking routes that other people leave
 ## what we collect, and why
 
 ### your account
-- **your email address**, so you can sign in, reset a forgotten password and change your email. if you sign in with Apple, we get the email Apple gives us (which can be a private relay address) and never your Apple password.
+- **your email address**, so you can sign in, confirm your email with a 6-digit code when you sign up, reset a forgotten password and change your email. if you sign in with Apple, we get the email Apple gives us (which can be a private relay address) and never your Apple password.
 - **your password** is handled by our database provider (Supabase) and stored scrambled (hashed). we never see it.
 - **your handle** (like @walker), and if you add them: a **display name**, **bio**, **profile photo** and **Instagram username**. these are shown on your profile.
+- **until you type the code** from your sign-up email, your account isn't shown to anyone, and the handle you picked is held for you for 24 hours. if the code is never typed, that sign-up and anything attached to it are deleted automatically after 7 days, and the handle is free again.
 
 ### your location
 - **while a walk is going**, and **while you record a route you're making**, the app follows your location to guide you, check off stops as you reach them, and draw the line you walked. if you allow "always", this keeps working while the screen is off - only while that walk or recording is going. your iPhone shows the blue location indicator whenever this happens.
 - **what's saved:** the line you walked is saved with your finished walk. the line, start and stops of a route you make are saved with the route. a walk in progress or a draft is saved to your account so it isn't lost.
-- **at other times,** a few screens ("near me", search, notifications and tag pages) take one reading of where you are, to sort routes by distance. that reading isn't saved.
+- **at other times,** a few screens ("near me", "top in the world", "pick a walk", search, notifications and tag pages) take one reading of where you are, to sort routes by distance. that reading is never saved.
 - the app never tracks you in the background when no walk or recording is going.
 
 ### what you make and share
@@ -47,13 +48,11 @@ can i walk with you? is an iPhone app for walking routes that other people leave
 while you walk, the app reads your iPhone's step counter (motion & fitness) to count your steps. only the total for each walk is saved.
 
 ### notifications
-if you turn notifications on, we keep your iPhone's notification token and your notification choices, so we can tell you when someone follows you, likes or comments on your walk, mentions you, or walks a route you made.
+if you turn notifications on, we keep your iPhone's notification token and your notification choices, so we can tell you when someone follows you or asks to, approves your follow request, likes or comments on your walks and routes, mentions you, or walks a route you made.
 
-### walk club and "notify me"
+### walk club
 - if you say yes to the **walk club**, we add your account's email to the walk club list, to tell you about group walks near you and app news now and then.
-- if you ask to be told when **walking with strangers** opens ("notify me"), we keep the email you type in.
-- every one of these emails has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
-- to have a "notify me" email removed, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> and we'll delete it.
+- every walk club email has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
 
 ### reports
 if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us, and we review reports within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person you reported is never told who reported them.
@@ -71,6 +70,7 @@ to stop people guessing passwords or overloading the app, the server keeps a cou
 - **what others see of a walk:** what you left at the stops, how it felt, your rating, who you walked with, when you walked, how long and your step count, and the line you walked.
 - **routes** show their line, stops, notes and photos. prompts stay hidden until someone walks the route.
 - your **likes, comments and reposts** can be seen by anyone who can see the post.
+- **walkers to follow:** search suggests people to follow, showing their handle, name, photo and the city of their latest public route or walk. you can stay out of it: settings → "suggest me to others".
 - **blocking** someone hides you from each other completely, and removes their comments, likes and reposts from your walks and routes.
 - drafts, walks in progress, your notification settings, who you've blocked, your searches and your reports are never shown to anyone else.
 
@@ -79,7 +79,7 @@ to stop people guessing passwords or overloading the app, the server keeps a cou
 we use a few services to run the app. each gets only what it needs.
 
 - **Supabase** stores the app's data, photos and videos, and handles sign-in. our data is kept in the United States (US West).
-- **Resend** sends the app's emails (sign-in and password codes, and reports to us).
+- **Resend** sends the app's emails (the codes to confirm your email, reset your password and change your email, and reports to us).
 - **Apple:**
   - Sign in with Apple
   - notifications
@@ -104,7 +104,8 @@ we don't use any analytics, advertising or crash-reporting services.
 - **private stops:** mark what you leave at a stop as private.
 - **location:** you can say no, or choose "while using" instead of "always", in the iPhone's settings. walking and making routes need location to work.
 - **notifications:** turn them off, or choose which ones you get, in settings.
-- **walk club and "notify me" emails:** tap the unsubscribe link in any of them, or turn walk club emails off in settings.
+- **walkers to follow:** turn "suggest me to others" off in settings.
+- **walk club emails:** tap the unsubscribe link in any of them, or turn walk club emails off in settings.
 - **block and report:** tap "⋯" on a post, a walk, a profile, a route or a comment.
 
 ## deleting your account
@@ -120,7 +121,7 @@ go to **your profile → settings (the gear) → delete account**, then tap "con
 - your likes, comments and reposts, and other people's likes, comments and reposts on your walks and routes
 - who you follow and who follows you, your blocks, saved routes and searches
 - your notification token and settings
-- your walk club answer and your place on the email lists
+- your walk club answer and your place on the walk club list
 
 if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID.
 
@@ -129,13 +130,12 @@ if you signed in with Apple, we also ask Apple to disconnect the app from your A
 - **reports**, both the ones you made and the ones about you, with a copy of what was reported, so we can still deal with them.
 - **your handle,** held for 30 days so nobody else can take it straight away. after that it's free again.
 - **a record that each route and walk was deleted**, so it can never come back from an old phone.
-- an email you typed into "notify me" while signed out isn't linked to your account. ask us and we'll remove it.
 
 our database provider keeps short-term backups for recovery. deleted data can remain in those backups until they expire.
 
 ## how long we keep things
 
-we keep your information while your account exists, and delete it when you delete your account (see above). notifications that have been sent are cleared after 7 days. the counts of requests from each internet address are deleted after 30 days.
+we keep your information while your account exists, and delete it when you delete your account (see above). notifications that have been sent are cleared after 7 days. a sign-up whose email code is never typed is deleted after 7 days. the counts of requests from each internet address are deleted after 30 days.
 
 ## children
 
