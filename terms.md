@@ -15,7 +15,7 @@ description: the rules for using can i walk with you?, in plain words.
 - be kind. no hate, harassment, threats or sexual content - we have zero tolerance for it, and we remove it and the accounts that post it.
 - what you make is yours. you let us show it in the app to the people you've chosen.
 - routes are made by other walkers, not checked by us. you decide whether a route is safe for you, every time.
-- the app is free.
+- some of the app needs a subscription, sold through Apple.
 </div>
 
 ## 1. agreeing to these terms
@@ -33,9 +33,14 @@ these terms are an agreement between you and {% if site.operator_name != "" %}{{
 - if you think someone else is using your account, tell us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
 - you can delete your account at any time from settings. our [privacy policy](/privacy/#deleting-your-account) explains what that removes.
 
-## 4. the app is free
+## 4. subscriptions
 
-can i walk with you? is free, and nothing in it costs money. if we ever add paid features, they'll be sold through Apple, and we'll update these terms first.
+- some of can i walk with you? needs a paid subscription. subscriptions are sold and billed by Apple, through your Apple account, and Apple's terms apply to them too.
+- you'll always see the price before you buy.
+- subscriptions renew automatically unless you cancel at least 24 hours before the end of the current period. you can cancel any time in your iPhone's settings, under your Apple account and subscriptions.
+- refunds are handled by Apple.
+- we may offer the subscription free to some people, like early walkers.
+- if we change the price, we'll tell you first, and you can cancel before it applies.
 
 ## 5. what you post
 
