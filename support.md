@@ -36,6 +36,9 @@ check they're on in the app (your profile → settings → notifications) and on
 ### how do I report or block someone?
 tap "⋯" on their post, walk, prompt answer, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person is never told who reported them.
 
+### my prompt won't save
+prompts can't ask walkers to do anything risky or unsafe - like drinking, smoking, climbing, swimming, or going somewhere they shouldn't. change the prompt to ask them to notice, find or photograph something instead, and it will save.
+
 ### how do I stop the walk club emails?
 tap "unsubscribe" at the bottom of any of them - one tap and you're off the list. you can also turn them off in the app: your profile → settings → walk club emails.
 

@@ -56,7 +56,7 @@ if you turn notifications on, we keep your iPhone's notification token and your 
 - every walk club email has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
 
 ### reports
-if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us, and we review reports within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person you reported is never told who reported them.
+if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us, and we review reports within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. if it's a person, everything of theirs is hidden the same way - their profile, routes, walks, comments, likes, reposts and follows - and their activity sends nobody a notification. the person you reported is never told who reported them.
 
 ### to keep the app safe
 to stop people guessing passwords or overloading the app, the server keeps a count of recent requests from each internet (IP) address. these counts aren't linked to your account, and each one is deleted automatically after 30 days.
@@ -68,8 +68,8 @@ to stop people guessing passwords or overloading the app, the server keeps a cou
 - **private profile:** only people you approve as followers can see your routes and walks.
 - **a private walk** is seen only by you, whatever your profile is.
 - **a private stop** on a walk: what you left there stays yours alone.
-- **what others see of a walk:** what you left at the stops, how it felt, your rating, who you walked with, when you walked, how long and your step count, and the line you walked.
-- **routes** show their line, stops, notes and photos. prompts stay hidden until someone walks the route.
+- **what others see of a walk:** what you left at the stops, how it felt, your rating, who you walked with, when you walked, how long and your step count, and the line you walked - as you walked it, from where you tapped "start walk" to where you finished. it shows the exact streets you took, on purpose, so keep that in mind before you post a walk.
+- **routes** show their line (the path you recorded, from the route's start), stops, notes and photos. prompts stay hidden until someone walks the route.
 - your **likes, comments and reposts** can be seen by anyone who can see the post.
 - **walkers to follow:** search suggests people to follow, showing their handle, name, photo and the city of their latest public route or walk. you can stay out of it: settings → "suggest me to others".
 - **blocking** someone hides you from each other completely, and removes both of your comments, likes and reposts from each other's walks and routes.
@@ -123,6 +123,7 @@ go to **your profile → settings (the gear) → delete account**, then tap "con
 - who you follow and who follows you, your blocks, saved routes and searches
 - your notification token and settings
 - your walk club answer and your place on the walk club list
+- the record that you agreed to the safety note
 
 if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID.
 

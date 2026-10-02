@@ -47,7 +47,8 @@ these terms are an agreement between you and {% if site.operator_name != "" %}{{
 - **what you make is yours** - your routes, walks, notes, photos, videos, drawings and comments.
 - **you let us use it to run the app.** we store it, and show it in the app to the people you've chosen (everyone, only your followers, or only you). this permission ends when you delete it or your account. it doesn't cover copies other people already have, like a share card someone saved.
 - **only post what you have the right to post.** that means your own photos and words, and nothing that belongs to someone else.
-- **be careful with other people.** don't post someone's photo, name or private details without their permission. don't make a stop at someone's home.
+- **be careful with other people.** don't post someone's photo, name or private details without their permission. don't make a stop at someone's home - the app warns you if a route's start looks like a home address.
+- **prompts can't ask walkers to do anything risky or unsafe** - like drinking, smoking, climbing, swimming, or going somewhere they shouldn't. the app won't save a prompt that does.
 
 ## 6. the rules - zero tolerance
 
@@ -82,7 +83,7 @@ also don't: try to get into someone else's account, collect other people's infor
 - respect private property and the rules of every place you visit
 - stop or turn back if anything feels wrong - trust that over finishing the route
 
-the app asks you to agree to this before your first walk.
+the app asks every account to agree to this before its first walk. it also reminds you on the way to a route's start that routes aren't checked by us, and at the start of every walk, and when you make a route, to watch where you're going, not your phone.
 
 ## 9. maps, directions and places
 
