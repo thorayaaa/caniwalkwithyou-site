@@ -17,6 +17,7 @@ description: the rules for using can i walk with you?, in plain words.
 - routes are made by other walkers, not checked by us. you decide whether a route is safe for you, every time.
 - walking has risks, and by walking or making a route you accept them. the app isn't an emergency service - in an emergency, call 911.
 - some of the app needs a subscription, sold through Apple.
+- disagreements are settled by individual arbitration, not in court. you can opt out within 30 days.
 </div>
 
 ## 1. agreeing to these terms
@@ -144,6 +145,18 @@ if we change these terms in a way that matters, we'll tell you in the app before
 
 these terms are governed by the laws of {{ site.governing_law }}.
 {% endif %}
+## 17. settling disagreements: arbitration
+
+**arbitration instead of court.** if you and we have a disagreement about the app or these terms, it will be settled by binding individual arbitration, not in court. an arbitrator decides it instead of a judge or jury, and the decision is final. the arbitration is run by the American Arbitration Association (AAA) under its Consumer Arbitration Rules.
+
+**only for yourself.** each of us can bring claims only for ourselves - not as part of a class action, a group lawsuit or any other kind of representative case, and an arbitrator can't combine claims from different people.
+
+**small claims court.** either of us can take a claim to small claims court instead, if it qualifies there.
+
+**opting out.** you can opt out of arbitration within 30 days of first agreeing to these terms. email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> with your name, your handle, and a line saying you opt out of arbitration. opting out doesn't change anything else in these terms.
+
+**the law that applies.** {% if site.governing_law != "" %}the laws of {{ site.governing_law }} still apply, as section 16 says.{% else %}the law that applies doesn't change.{% endif %}
+
 ## contact
 
 questions about these terms: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
