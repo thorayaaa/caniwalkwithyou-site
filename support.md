@@ -47,9 +47,10 @@ your profile → settings → delete account, then tap "continue" and type "dele
 
 ## something unsafe?
 
-if you or someone else is in danger, call your local emergency number first. then tell us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>, or report it in the app.
+if you or someone else is in danger, call 911 or your local emergency number first. then tell us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>, or report it in the app. our [safety tips](/safety/) cover walking and making routes safely.
 
 ## more
 
+- [safety tips](/safety/)
 - [privacy policy](/privacy/)
 - [terms](/terms/)
