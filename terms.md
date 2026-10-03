@@ -15,6 +15,7 @@ description: the rules for using can i walk with you?, in plain words.
 - be kind. no hate, harassment, threats or sexual content - we have zero tolerance for it, and we remove it and the accounts that post it.
 - what you make is yours. you let us show it in the app to the people you've chosen.
 - routes are made by other walkers, not checked by us. you decide whether a route is safe for you, every time.
+- walking has risks, and by walking or making a route you accept them. the app isn't an emergency service - in an emergency, call 911.
 - some of the app needs a subscription, sold through Apple.
 </div>
 
@@ -83,17 +84,37 @@ also don't: try to get into someone else's account, collect other people's infor
 - respect private property and the rules of every place you visit
 - stop or turn back if anything feels wrong - trust that over finishing the route
 
-the app asks every account to agree to this before its first walk. it also reminds you on the way to a route's start that routes aren't checked by us, and at the start of every walk, and when you make a route, to watch where you're going, not your phone.
+**walking has risks.** traffic, uneven ground, weather, darkness, other people, and places changing. by walking a route or making one, you accept those risks.
 
-## 9. maps, directions and places
+**your health.** walk within your own limits, and check with a doctor if you're not sure walking is right for you. the app isn't medical advice.
+
+**emergencies.** the app isn't an emergency service. in an emergency, call 911 or your local emergency number.
+
+our [safety tips](/safety/) put all of this in one place.
+
+the app asks every account to agree to this before its first walk, and to the rules for making routes (section 9) before its first route. every time you publish a route, it asks you to confirm the route is on public places and doesn't start at anyone's home. we keep a record of each of these, with the date. it also reminds you on the way to a route's start that routes aren't checked by us, and at the start of every walk, and when you make a route, to watch where you're going, not your phone.
+
+## 9. making routes
+
+**route makers are responsible for their routes.** a route you make must use public places that are legal and reasonably safe to walk - never private property without permission, and never someone's home. that includes the start and every stop. watch where you're going, not your phone, while you make it.
+
+## 10. your location
+
+the app records where you walk while a walk or a route recording is going (our [privacy policy](/privacy/) explains exactly when). **you accept the risks of recording and sharing where you walked, including that a posted walk shows the exact streets you took**, from start to finish, to the people who can see it. you choose who can see each walk, and you can make your profile private.
+
+## 11. we don't screen people
+
+we don't do background checks on the people who use the app, and we don't check what they post before it goes up. we act on reports (section 7).
+
+## 12. maps, directions and places
 
 maps, walking directions and place information come from Apple and OpenStreetMap, and from what other walkers typed in. they can be wrong, out of date or incomplete - a path may be closed, or a place may have closed or changed its hours. always follow what you see around you and any signs, not the app.
 
-## 10. ending things
+## 13. ending things
 
 you can stop using the app and delete your account whenever you like. we can suspend or end your access if you break these terms, or to protect other people. we may change or stop the app, or parts of it, at any time.
 
-## 11. the legal part
+## 14. the legal part
 
 we work hard on the app, but we provide it "as is", without promises that it will always work, be accurate, or be available.
 
@@ -103,13 +124,23 @@ as far as the law allows, we're not responsible for:
 - anything other people post
 - losses that come indirectly from using the app
 
+**release and promise not to sue.** as far as the law allows, you release us from claims connected to walking routes, making routes, visiting stops, and using the app, and you agree not to sue us over them.
+
+**covering our costs.** if a claim is made against us because of something you posted or did - including your routes, prompts, photos, or how you walked - you'll cover our reasonable costs, including legal fees.
+
+**the most we could owe you.** as far as the law allows, if we're ever responsible to you for anything, the most we'd owe is what you paid us in the 12 months before the claim, or $100, whichever is more.
+
+**passing the app on.** we may transfer these terms and the app to a company we own or control, or to a new owner.
+
+**if part of these terms doesn't hold.** if any part of these terms can't be enforced, the rest still applies.
+
 nothing in these terms takes away rights that the law says you always have.
 
-## 12. changes to these terms
+## 15. changes to these terms
 
 if we change these terms in a way that matters, we'll tell you in the app before the change takes effect. if you keep using the app after that, you agree to the new terms.
 {% if site.governing_law != "" %}
-## 13. the law that applies
+## 16. the law that applies
 
 these terms are governed by the laws of {{ site.governing_law }}.
 {% endif %}
