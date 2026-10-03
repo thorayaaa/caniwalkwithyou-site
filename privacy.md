@@ -29,7 +29,7 @@ can i walk with you? is an iPhone app for walking routes that other people leave
 - **your email address**, so you can sign in, confirm your email with a 6-digit code when you sign up, reset a forgotten password and change your email. if you sign in with Apple, we get the email Apple gives us (which can be a private relay address) and never your Apple password.
 - **your password** is handled by our database provider (Supabase) and stored scrambled (hashed). we never see it.
 - **your handle** (like @walker), and if you add them: a **display name**, **bio**, **profile photo** and **Instagram username**. these are shown on your profile.
-- **that you agreed to the safety note** ("before you start walking") before your first walk, so you aren't asked again on another phone.
+- **the safety agreements you tick**, so there's a record: the box when you sign up (the terms, the privacy policy, and that you're 13 or older), the box before your first walk, the box before your first route, and the box each time you publish a route (with that route). we keep which box, its exact words and the date you ticked it. only you can see them, and you aren't asked again on another phone.
 - **until you type the code** from your sign-up email, your account isn't shown to anyone, and the handle you picked is held for you for 24 hours. if the code is never typed, that sign-up and anything attached to it are deleted automatically after 7 days, and the handle is free again.
 
 ### your location
@@ -128,7 +128,7 @@ go to **your profile → settings (the gear) → delete account**, then tap "con
 - who you follow and who follows you, your blocks, saved routes and searches
 - your notification token and settings
 - your walk club answer and your place on the walk club list
-- the record that you agreed to the safety note
+- the record of the safety agreements you ticked
 
 if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID.
 

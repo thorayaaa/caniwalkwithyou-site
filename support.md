@@ -33,6 +33,12 @@ Settings → Privacy & Security → Motion & Fitness → turn on can i walk with
 ### I'm not getting notifications
 check they're on in the app (your profile → settings → notifications) and on your iPhone (Settings → Notifications → can i walk with you?).
 
+### why do I have to tick a box before walking or making a route?
+routes are made by other walkers, and we don't check them. so before your first walk, and before your first route, the app asks you to read a short safety note and tick a box - once per account. every time you publish a route, you tick a box to confirm it's on public places and doesn't start at anyone's home. we keep a record of each, with the date. our [safety tips](/safety/) are worth a read too.
+
+### I can't tap "create my account"
+tick the box under it first: "i agree to the terms and privacy policy, and i'm 13 or older." Sign in with Apple waits for the same box.
+
 ### how do I report or block someone?
 tap "⋯" on their post, walk, prompt answer, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person is never told who reported them.
 
