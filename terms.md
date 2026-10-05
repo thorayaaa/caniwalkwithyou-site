@@ -127,7 +127,7 @@ as far as the law allows, we're not responsible for:
 
 **release and promise not to sue.** as far as the law allows, you release us from claims connected to walking routes, making routes, visiting stops, and using the app, and you agree not to sue us over them.
 
-**covering our costs.** if a claim is made against us because of something you posted or did - including your routes, prompts, photos, or how you walked - you'll cover our reasonable costs, including legal fees.
+**covering our costs.** if a claim is made against us because of something you posted or did - including your routes, prompts, photos, or how you walked - you'll cover our reasonable costs, including legal fees, but only where the arbitration rules and the law allow it.
 
 **the most we could owe you.** as far as the law allows, if we're ever responsible to you for anything, the most we'd owe is what you paid us in the 12 months before the claim, or $100, whichever is more.
 
@@ -147,13 +147,29 @@ these terms are governed by the laws of {{ site.governing_law }}.
 {% endif %}
 ## 17. settling disagreements: arbitration
 
+**talk to us first.** before either of us starts an arbitration or a small claims case, the one with the problem emails the other - you email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> - saying what's wrong and what they'd like done about it. then we both try to sort it out for 60 days. only after that can either of us start a case.
+
 **arbitration instead of court.** if you and we have a disagreement about the app or these terms, it will be settled by binding individual arbitration, not in court. an arbitrator decides it instead of a judge or jury, and the decision is final. the arbitration is run by the American Arbitration Association (AAA) under its Consumer Arbitration Rules.
 
 **only for yourself.** each of us can bring claims only for ourselves - not as part of a class action, a group lawsuit or any other kind of representative case, and an arbitrator can't combine claims from different people.
 
 **small claims court.** either of us can take a claim to small claims court instead, if it qualifies there.
 
-**opting out.** you can opt out of arbitration within 30 days of first agreeing to these terms. email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> with your name, your handle, and a line saying you opt out of arbitration. opting out doesn't change anything else in these terms.
+**many claims at once.** if many similar claims are filed against us at the same time by people using the same lawyers, they're handled in batches under the AAA's rules for mass arbitration, rather than all at once.
+
+**protecting the public.** if a claim asks a court for an order that protects the public (what California law calls public injunctive relief), that request stays in court - and it waits until the arbitration of everything else in that disagreement is finished.
+
+**if the "only for yourself" part can't be enforced.** if a court decides the "only for yourself" part can't be enforced for a claim, that claim goes to court instead of arbitration, and the rest of this section still applies to everything else.
+
+**the details.**
+
+- the Federal Arbitration Act applies to this section.
+- the arbitrator decides whether a disagreement has to go to arbitration.
+- hearings can be by phone or video, or in person in the county where you live.
+- either of us can take a claim about intellectual property (like copyright or trademarks) to court.
+- anything that isn't arbitrated goes to the state or federal courts in San Diego County, California.
+
+**opting out.** you can opt out of arbitration within 30 days of first agreeing to these terms. if we change these terms later, you can also opt out within 30 days of the day the app tells you about the change. email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> with your name, your handle, and a line saying you opt out of arbitration. opting out doesn't change anything else in these terms.
 
 **the law that applies.** {% if site.governing_law != "" %}the laws of {{ site.governing_law }} still apply, as section 16 says.{% else %}the law that applies doesn't change.{% endif %}
 
