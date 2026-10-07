@@ -55,7 +55,7 @@ if you turn notifications on, we keep your iPhone's notification token and your 
 ### walk club
 - if you say yes to the **walk club**, we add your account's email to the walk club list, to tell you about group walks near you and app news now and then.
 - every walk club email has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
-- the walk club is separate from the app, and for the future. in the app, people never walk together or meet.
+- the walk club is separate from the app. in the app, people never walk together or meet.
 
 ### your subscription
 a subscription is needed to use the app, and new walkers can start with a free trial. Apple handles the payment, and we never see your card or bank details. Apple only tells us whether you have an active subscription or free trial, and when it renews or ends.
