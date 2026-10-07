@@ -17,7 +17,7 @@ description: what happened to a reported post.
     var k = q.get('k') || '';
     var o = q.get('o') || '';
     var owner = /^[a-z0-9._]{1,30}$/.test(o) ? '@' + o : 'its owner';
-    var labels = { route: 'route', walk: 'walk', comment: 'comment' };
+    var labels = { route: 'route', walk: 'walk', comment: 'comment', album: 'album' };
     var thing = k === 'person' ? owner + '\u2019s profile and everything of theirs' : owner + '\u2019s ' + (labels[k] || 'post');
     var words = {
       hidden: ['hidden.', thing + ' is now hidden from everyone but ' + owner + '. to show it again, tap \u201cun-hide it\u201d in the same email.'],
