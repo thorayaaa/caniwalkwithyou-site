@@ -40,7 +40,7 @@ routes are made by other walkers, and we don't check them. so before your first 
 tick the box under it first: "i agree to the terms and privacy policy, and i'm 13 or older." Sign in with Apple waits for the same box.
 
 ### how do I report or block someone?
-tap "⋯" on their post, walk, prompt answer, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same thing, it's hidden from everyone but the person who posted it until we've reviewed it. the person is never told who reported them.
+tap "⋯" on their post, walk, prompt answer, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same post, walk, prompt answer, route or comment, it's hidden from everyone but the person who posted it until we've reviewed it. a person is never hidden just because they were reported - we review it first. the person is never told who reported them.
 
 ### my prompt won't save
 prompts can't ask walkers to do anything risky or unsafe - like drinking, smoking, climbing, swimming, or going somewhere they shouldn't. change the prompt to ask them to notice, find or photograph something instead, and it will save.
