@@ -48,8 +48,11 @@ prompts can't ask walkers to do anything risky or unsafe - like drinking, smokin
 ### how do I stop the walk club emails?
 tap "unsubscribe" at the bottom of any of them - one tap and you're off the list. you can also turn them off in the app: your profile → settings → walk club emails.
 
+### how do I cancel my subscription or free trial?
+on your iPhone: Settings → your name → Subscriptions → can i walk with you? → cancel. cancel at least 24 hours before your free trial or current period ends, or you'll be charged for the next one. Apple handles payments and refunds - for a refund, go to reportaproblem.apple.com.
+
 ### how do I delete my account?
-your profile → settings → delete account, then tap "continue" and type "delete". our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept.
+your profile → settings → delete account, then tap "continue" and type "delete". our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept. deleting your account doesn't cancel your subscription with Apple - cancel it in your iPhone's settings too (see above).
 
 ## something unsafe?
 

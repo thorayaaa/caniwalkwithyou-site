@@ -57,8 +57,8 @@ if you turn notifications on, we keep your iPhone's notification token and your 
 - every walk club email has a one-tap unsubscribe link at the bottom. you can also turn walk club emails off in settings.
 - the walk club is separate from the app, and for the future. in the app, people never walk together or meet.
 
-### if you subscribe
-Apple handles the payment, and we never see your card or bank details. Apple only tells us whether you have an active subscription and when it renews or ends.
+### your subscription
+a subscription is needed to use the app, and new walkers can start with a free trial. Apple handles the payment, and we never see your card or bank details. Apple only tells us whether you have an active subscription or free trial, and when it renews or ends.
 
 ### reports
 if you report something, we keep what you reported, why, any note you add, and a copy of what it said at the time, so it can be reviewed. the report is emailed to us, and we review reports within 24 hours. if 3 different people report the same post, walk, prompt answer, route or comment, it's hidden from everyone but the person who posted it until we've reviewed it. a person is never hidden just because they were reported: we review it first, and if we hide them, everything of theirs is hidden from everyone but them - their profile, routes, walks, comments, likes, reposts and follows - and their activity sends nobody a notification. the person you reported is never told who reported them.
@@ -93,7 +93,7 @@ we use a few services to run the app. each gets only what it needs.
   - maps and walking directions
   - place search when you make a route (your search words and where you are, to find places near you)
   - turning a location into a place or city name
-  - subscriptions, if you subscribe (Apple takes the payment)
+  - subscriptions and free trials (Apple takes the payment)
 - **OpenStreetMap** (Nominatim and Overpass) helps find places near a stop, a place's opening hours, and whether a spot looks like a home address. these requests include a location, never your name or account.
 - this website is hosted on **GitHub Pages**. it has no cookies, analytics or tracking.
 
@@ -132,7 +132,7 @@ go to **your profile → settings (the gear) → delete account**, then tap "con
 - your walk club answer and your place on the walk club list
 - the record of the safety agreements you ticked, and of the days you were shown notices about changes to the terms
 
-if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID.
+if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID. deleting your account doesn't cancel your subscription - Apple manages it, so cancel it in your iPhone's settings (Settings → your name → Subscriptions).
 
 **what's kept:**
 - **other people's walks of your routes.** they're theirs. each keeps its own copy of the route's name and place.

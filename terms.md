@@ -16,7 +16,7 @@ description: the rules for using can i walk with you?, in plain words.
 - what you make is yours. you let us show it in the app to the people you've chosen.
 - routes are made by other walkers, not checked by us. you decide whether a route is safe for you, every time.
 - walking has risks, and by walking or making a route you accept them. the app isn't an emergency service - in an emergency, call 911.
-- some of the app needs a subscription, sold through Apple.
+- a subscription is needed to use the app, sold through Apple. new walkers can start with a free trial.
 - disagreements are settled by individual arbitration, not in court. you can opt out within 30 days.
 </div>
 
@@ -37,11 +37,12 @@ these terms are an agreement between you and {% if site.operator_name != "" %}{{
 
 ## 4. subscriptions
 
-- some of can i walk with you? needs a paid subscription. subscriptions are sold and billed by Apple, through your Apple account, and Apple's terms apply to them too.
+- a subscription is needed to use can i walk with you?. subscriptions are sold and billed by Apple, through your Apple account, and Apple's terms apply to them too.
+- new walkers can start with a free trial. you'll see how long it lasts before you start. if you don't cancel at least 24 hours before it ends, your subscription starts and you're charged.
 - you'll always see the price before you buy.
 - subscriptions renew automatically unless you cancel at least 24 hours before the end of the current period. you can cancel any time in your iPhone's settings, under your Apple account and subscriptions.
 - refunds are handled by Apple.
-- we may offer the subscription free to some people, like early walkers.
+- some people, like early walkers, get the subscription free.
 - if we change the price, we'll tell you first, and you can cancel before it applies.
 
 ## 5. what you post
