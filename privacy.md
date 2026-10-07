@@ -30,6 +30,7 @@ can i walk with you? is an iPhone app for walking routes that other people leave
 - **your password** is handled by our database provider (Supabase) and stored scrambled (hashed). we never see it.
 - **your handle** (like @walker), and if you add them: a **display name**, **bio**, **profile photo** and **Instagram username**. these are shown on your profile.
 - **the safety agreements you tick**, so there's a record: the box when you sign up (the terms, the privacy policy, and that you're 13 or older), the box before your first walk, the box before your first route, and the box each time you publish a route (with that route). we keep which box, its exact words and the date you ticked it. only you can see them, and you aren't asked again on another phone.
+- **when the app told you the terms changed.** if you had an account before a change to the terms that matters, we keep the day you were shown the notice about it (and closed it), because your 30 days to opt out of arbitration start then. only you can see it.
 - **until you type the code** from your sign-up email, your account isn't shown to anyone, and the handle you picked is held for you for 24 hours. if the code is never typed, that sign-up and anything attached to it are deleted automatically after 7 days, and the handle is free again.
 
 ### your location
@@ -74,6 +75,7 @@ to stop people guessing passwords or overloading the app, the server keeps a cou
 - **a private stop** on a walk: what you left there stays yours alone.
 - **what others see of a walk:** what you left at the stops, how it felt, your rating, who you walked with, when you walked, how long and your step count, and the line you walked - as you walked it, from where you tapped "start walk" to where you finished. it shows the exact streets you took, on purpose, so keep that in mind before you post a walk.
 - **routes** show their line (the path you recorded, from the route's start), stops, notes and photos. prompts stay hidden until someone walks the route.
+- **route maps:** "routes around the world" and the map behind "routes created" on a profile put a pin at the start of each published route - the same start shown on the route's own page, and only for the people who can already see that route (a private profile's routes only for its approved followers). anyone can open them, including people who aren't signed in.
 - your **likes, comments and reposts** can be seen by anyone who can see the post.
 - **walkers to follow:** search suggests people to follow, showing their handle, name, photo and the city of their latest public route or walk. you can stay out of it: settings → "suggest me to others".
 - **blocking** someone hides you from each other completely, and removes both of your comments, likes and reposts from each other's walks and routes.
@@ -128,7 +130,7 @@ go to **your profile → settings (the gear) → delete account**, then tap "con
 - who you follow and who follows you, your blocks, saved routes and searches
 - your notification token and settings
 - your walk club answer and your place on the walk club list
-- the record of the safety agreements you ticked
+- the record of the safety agreements you ticked, and of the days you were shown notices about changes to the terms
 
 if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID.
 

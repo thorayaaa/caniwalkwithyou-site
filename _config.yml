@@ -1,7 +1,7 @@
 # The site's settings. Change the contact email HERE - every page reads it.
 title: can i walk with you?
 contact_email: hello@caniwalkwithyou.com
-last_updated: October 5, 2026
+last_updated: October 6, 2026
 
 # The report email's "hide it now" / "un-hide it" pages send their button here
 # (the report-review Edge Function). Nothing else on the site uses it.

@@ -139,7 +139,7 @@ nothing in these terms takes away rights that the law says you always have.
 
 ## 15. changes to these terms
 
-if we change these terms in a way that matters, we'll tell you in the app before the change takes effect. if you keep using the app after that, you agree to the new terms.
+if we change these terms in a way that matters, we'll tell you in the app: you'll see a short notice the next time you open it, on or after the day the change takes effect. if you keep using the app after that, you agree to the new terms.
 {% if site.governing_law != "" %}
 ## 16. the law that applies
 
