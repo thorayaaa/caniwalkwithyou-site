@@ -31,6 +31,7 @@ can i walk with you? is an iPhone app for walking routes that other people leave
 - **your handle** (like @walker), and if you add them: a **display name**, **bio**, **profile photo** and **Instagram username**. these are shown on your profile.
 - **the safety agreements you tick**, so there's a record: the box when you sign up (the terms, the privacy policy, and that you're 13 or older), the box before your first walk, the box before your first route, and the box each time you publish a route (with that route). we keep which box, its exact words and the date you ticked it. only you can see them, and you aren't asked again on another phone.
 - **when the app told you the terms changed.** if you had an account before a change to the terms that matters, we keep the day you were shown the notice about it (and closed it), because your 30 days to opt out of arbitration start then. only you can see it.
+- **that you've seen the walk notice.** the first time a walk starts while your location isn't set to "always", the app tells you your directions pause when your screen is off. we keep that you've seen it, and the day, so it isn't shown again on any phone. only you can see it.
 - **until you type the code** from your sign-up email, your account isn't shown to anyone, and the handle you picked is held for you for 24 hours. if the code is never typed, that sign-up and anything attached to it are deleted automatically after 7 days, and the handle is free again.
 
 ### your location
@@ -130,7 +131,7 @@ go to **your profile → settings (the gear) → delete account**, then tap "con
 - who you follow and who follows you, your blocks, saved routes and searches
 - your notification token and settings
 - your walk club answer and your place on the walk club list
-- the record of the safety agreements you ticked, and of the days you were shown notices about changes to the terms
+- the record of the safety agreements you ticked, of the days you were shown notices about changes to the terms, and of the walk notice you were shown
 
 if you signed in with Apple, we also ask Apple to disconnect the app from your Apple ID. deleting your account doesn't cancel your subscription - Apple manages it, so cancel it in your iPhone's settings (Settings → your name → Subscriptions).
 
