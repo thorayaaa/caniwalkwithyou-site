@@ -9,7 +9,8 @@ review_function: https://pencwliltbpwagjteugt.supabase.co/functions/v1/report-re
 
 # Who runs the app, the minimum age and the law that applies. Left empty, the
 # pages simply leave these out - nothing half-written ever shows.
-operator_name: "Thoraya Maronesy"
+operator_name: "Hey Stranger LLC"
+operator_kind: "a California limited liability company"
 minimum_age: "13"
 governing_law: "the State of California"
 

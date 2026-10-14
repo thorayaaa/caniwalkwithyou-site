@@ -22,7 +22,7 @@ description: the rules for using can i walk with you?, in plain words.
 
 ## 1. agreeing to these terms
 
-these terms are an agreement between you and {% if site.operator_name != "" %}{{ site.operator_name }}{% else %}the maker of can i walk with you?{% endif %} ("we", "us"). by creating an account or using the app, you agree to them and to our [privacy policy](/privacy/). if you don't agree, please don't use the app.
+these terms are an agreement between you and {% if site.operator_name != "" %}{{ site.operator_name }}{% if site.operator_kind != "" %}, {{ site.operator_kind }}{% endif %}{% else %}the maker of can i walk with you?{% endif %} ("we", "us"). by creating an account or using the app, you agree to them and to our [privacy policy](/privacy/). if you don't agree, please don't use the app.
 
 ## 2. who can use the app
 

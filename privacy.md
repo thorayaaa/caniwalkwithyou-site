@@ -21,7 +21,7 @@ description: what can i walk with you? collects, why, who can see it, and how to
 
 ## who we are
 
-can i walk with you? is an iPhone app for walking routes that other people leave, and leaving routes of your own. "we", "us" and "the app" in this policy mean {% if site.operator_name != "" %}{{ site.operator_name }}, who makes the app{% else %}the maker of can i walk with you?{% endif %}. you can reach us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+can i walk with you? is an iPhone app for walking routes that other people leave, and leaving routes of your own. "we", "us" and "the app" in this policy mean {% if site.operator_name != "" %}{{ site.operator_name }}{% if site.operator_kind != "" %}, {{ site.operator_kind }},{% endif %} which runs the app{% else %}the maker of can i walk with you?{% endif %}. you can reach us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
 
 ## what we collect, and why
 
