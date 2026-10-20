@@ -53,6 +53,8 @@ these terms are an agreement between you and {% if site.operator_name != "" %}{{
 - **be careful with other people.** don't post someone's photo, name or private details without their permission. don't make a stop at someone's home - the app warns you if a route's start looks like a home address.
 - **prompts can't ask walkers to do anything risky or unsafe** - like drinking, smoking, climbing, swimming, or going somewhere they shouldn't. the app won't save a prompt that does.
 
+**using what you share.** when you post something publicly in can i walk with you? (photos, videos, voice notes, doodles, writing, routes or walks), you give {% if site.operator_name != "" %}{{ site.operator_name }}{% else %}us{% endif %} permission to show, share and feature it, with credit to your @handle, in the app and in our marketing, including our social media and YouTube videos, without payment to you. you still own what you post. we won't feature anything you've marked private. you can turn off featuring in settings, and you can ask us to remove a feature at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+
 ## 6. the rules - zero tolerance
 
 we have **zero tolerance for objectionable content and abusive users**. don't post or send anything that:

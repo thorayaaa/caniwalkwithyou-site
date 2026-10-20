@@ -79,6 +79,7 @@ to stop people guessing passwords or overloading the app, the server keeps a cou
 - **route maps:** "routes around the world" and the map behind "routes created" on a profile put a pin at the start of each published route - the same start shown on the route's own page, and only for the people who can already see that route (a private profile's routes only for its approved followers). anyone can open them, including people who aren't signed in.
 - your **likes, comments and reposts** can be seen by anyone who can see the post.
 - **walkers to follow:** search suggests people to follow, showing their handle, name, photo and the city of their latest public route or walk. you can stay out of it: settings → "suggest me to others".
+- **featured on our socials:** your public posts may be featured, with credit to your @handle, on our social media and in our YouTube videos - never anything you've marked private - and you can turn this off in settings → "feature my posts".
 - **blocking** someone hides you from each other completely, and removes both of your comments, likes and reposts from each other's walks and routes.
 - drafts, walks in progress, your notification settings, who you've blocked, your searches and your reports are never shown to anyone else.
 
