@@ -11,52 +11,65 @@ need help, found something broken, or want to report something? email <a href="m
 
 ## common questions
 
+### how does a talk-walk work?
+**talking:** tap "talk" (the round red button), read "talk on your walk", then tap "start walking". lock your phone and walk. tap "mark spot" when you stop somewhere, and "pass the mic" to ask the listener something - both are on your lock screen too. when you finish, name it, add photos, and choose who hears it.
+
+**listening:** on the "listen" tab, pick a walk, tap "start walking with ...", then "tap to start listening". at each pass of the mic it's your turn - answer out loud, or skip. at the end you choose who hears what you said.
+
+new here? "a minute with thoraya" on the listen tab is a one-minute practice walk.
+
+### who hears what I recorded?
+you choose, every time, after the walk. a talk-walk: just you, or everyone. an answer: keep it for yourself, send it to the talker, or share it publicly under their walk. either way, your @handle or anonymous, your own voice or a changed one.
+
+### why can I only keep a walk for myself?
+talk-walks are about walking. if a walk (or your walk with someone) barely moved, it can only be kept for yourself. if walking isn't possible for you, turn on "walking isn't possible for me" in settings - no need to explain - and your walks and answers post like everyone else's.
+
+### who can see that I walked with someone?
+a walk's page shows how many people walked it. only answers shared publicly are listed, with your name, or "anonymous" if you went anonymous. answers kept for yourself or sent only to the talker are counted but never named.
+
+### why does it say "checking your walk"?
+everything shared with others is turned into text and checked against our community rules before anyone else hears it. it usually takes a minute. if part of it can't be shared, the app shows you the moment and why, and lets you cut that part, keep it just for you, or ask a person on our team to look.
+
 ### I forgot my password
 on the sign-in screen, tap "forgot password?" and enter your email or handle. we'll email you a code to set a new one. accounts made with Sign in with Apple don't have a password - just sign in with Apple again.
 
-### I didn't get my sign-up code
-when you sign up with email, we send a 6-digit code to confirm it. check your spam folder, then tap "send a new code" on the code page (you can ask for a new one after a minute). if the code is never typed, the sign-up is deleted after 7 days and you can start again.
+### I didn't get my code
+check your spam or promotions folder, then tap "send a new code" on the code page (you can ask for a new one once a minute). if a sign-up code is never typed, the sign-up is deleted after 7 days and you can start again.
 
 ### how do I change my email or password?
-your profile → settings (the gear) → "change email" or "change password".
+your profile → ⋯ → settings → "change email" or "change password".
 
-### how do I make my profile or a walk private?
-- **profile:** your profile → edit profile → private profile. then only followers you approve can see your routes and walks.
-- **a walk:** choose "who can see this walk?" when you finish it, or later with "edit my walk".
+### how do I make my profile private?
+your profile → ⋯ → settings → private profile. then only people you approve see your walks and your name.
 
-### the app doesn't know where I am
-walking and making routes need location. on your iPhone: Settings → Privacy & Security → Location Services → can i walk with you?. choose "while using the app", or "always" so your walk keeps counting with the screen off. the app only follows your location while a walk or a route recording is going.
+### the app can't hear me / doesn't know where I am
+recording and walking with someone need the microphone: Settings → Privacy & Security → Microphone → can i walk with you?. a walk's path needs location: Settings → Privacy & Security → Location Services → can i walk with you?. the app only follows your location while you record or listen to a walk.
 
-### my steps aren't counting
-Settings → Privacy & Security → Motion & Fitness → turn on can i walk with you?.
+### my buttons aren't on the lock screen
+turn on Live Activities: Settings → can i walk with you? → Live Activities.
 
 ### I'm not getting notifications
-check they're on in the app (your profile → settings → notifications) and on your iPhone (Settings → Notifications → can i walk with you?).
-
-### why do I have to tick a box before walking or making a route?
-routes are made by other walkers, and we don't check them. so before your first walk, and before your first route, the app asks you to read a short safety note and tick a box - once per account. every time you publish a route, you tick a box to confirm it's on public places and doesn't start at anyone's home. we keep a record of each, with the date. our [safety tips](/safety/) are worth a read too.
+check they're on in the app (your profile → ⋯ → settings → notifications) and on your iPhone (Settings → Notifications → can i walk with you?).
 
 ### I can't tap "create my account"
-tick the box under it first: "i agree to the terms and privacy policy, and i'm 13 or older." Sign in with Apple waits for the same box.
+tick the box under it first: "i agree to the terms and privacy policy, and i'm 18 or older." Sign in with Apple waits for the same box. can i walk with you? is only for people 18 and over.
 
 ### how do I report or block someone?
-tap "⋯" on their post, walk, prompt answer, profile, route or comment, then choose report or block. reports come straight to us, and we review them within 24 hours. if 3 different people report the same post, walk, prompt answer, route or comment, it's hidden from everyone but the person who posted it until we've reviewed it. a person is never hidden just because they were reported - we review it first. the person is never told who reported them.
-
-### my prompt won't save
-prompts can't ask walkers to do anything risky or unsafe - like drinking, smoking, climbing, swimming, or going somewhere they shouldn't. change the prompt to ask them to notice, find or photograph something instead, and it will save.
+tap "⋯" on a walk, an answer or a profile, then "report" - pick a reason and add details if you like - or "block". reports come straight to us. we review reports and remove anything that breaks our rules. the person is never told who reported them.
 
 ### how do I stop the walk club emails?
-tap "unsubscribe" at the bottom of any of them - one tap and you're off the list. you can also turn them off in the app: your profile → settings → walk club emails.
+tap "unsubscribe" at the bottom of any of them - one tap and you're off the list.
 
-### how do I cancel my subscription or free trial?
-on your iPhone: Settings → your name → Subscriptions → can i walk with you? → cancel. cancel at least 24 hours before your free trial or current period ends, or you'll be charged for the next one. Apple handles payments and refunds - for a refund, go to reportaproblem.apple.com.
-
-### how do I delete my account?
-your profile → settings → delete account, then tap "continue" and type "delete". our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept. deleting your account doesn't cancel your subscription with Apple - cancel it in your iPhone's settings too (see above).
+### how do I delete a walk, or my account?
+a walk: open it, "⋯" → delete. your account: your profile → ⋯ → settings → delete account, then type "delete". deleting removes the recordings too. our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept.
 
 ## something unsafe?
 
-if you or someone else is in danger, call 911 or your local emergency number first. then tell us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>, or report it in the app. our [safety tips](/safety/) cover walking and making routes safely.
+we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number.
+
+need to talk to someone now? in the US, call or text 988 (Suicide & Crisis Lifeline). outside the US, find your country's free helpline at [findahelpline.com](https://findahelpline.com). it's also in the app: settings, and every "⋯" menu.
+
+to report something in the app, use "⋯" → report, or write to <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>. our [safety tips](/safety/) are worth a read.
 
 ## more
 
