@@ -137,7 +137,7 @@ an answer you send to a talker is private: only that talker can hear it in the a
 
 - **report** a walk, an answer or a person: tap "⋯" and pick the guideline it breaks. reports come straight to us, and the person you report is never told who reported them.
 - **block** someone: they can't hear your walks or send you answers, and you won't see theirs. they aren't told.
-- **we aim to review every report within 24 hours.** if enough different people report the same walk or answer, it's hidden from everyone but the person who posted it until we've looked.
+- **we review reports and remove anything that breaks our rules.** if enough different people report the same walk or answer, it's hidden from everyone but the person who posted it until we've looked.
 - **we can hold, label, limit or remove any content, and suspend or remove any account**, with or without warning, when we believe it breaks these terms or the community guidelines, or to protect people. we don't have to monitor everything, and we can't promise to catch everything. we don't do background checks on the people who use the app.
 
 ## 17. copyright (DMCA)
