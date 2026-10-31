@@ -19,7 +19,7 @@ description: the rules for using can i walk with you?, in plain words.
 - your words are turned into text on your phone and checked by an AI, and sometimes by a person, before anyone else hears them. if a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and you can ask a person to look.
 - what you make stays yours. you let us run it in the app. "share in other media" is a separate switch, off unless you turn it on.
 - nobody has to do anything a talker says. stay aware of where you are. walking has risks, and you accept them.
-- the app isn't therapy. can i walk with you? isn't monitored in real time and isn't an emergency service. if you're in danger, call or text 988 in the US, or your local emergency number.
+- the app isn't therapy. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
 - the app is free to use today. if it ever offers a subscription, it's sold through Apple, and you choose whether to buy it.
 - disagreements are settled by individual arbitration, not in court, and you can opt out within 30 days.
 </div>
@@ -94,7 +94,7 @@ also don't:
 - **not allowed:** it isn't posted. you're told which rule and where, and you can re-record, keep it just for yourself, or delete it.
 - **held:** parts with graphic details are held for you to decide - cut that part, keep it just for yourself, or ask a person on our team to look. if the check is unsure, it's held until a person on our team looks, and we tell you what we decide.
 - **sensitive topics:** the check can add a heads-up for sensitive topics to a walk. only we can take it off.
-- **if it sounds like someone is in danger right now**, it's never treated as breaking a rule: the app shows them, privately, where they can talk to someone right now (988 in the US), and keeps their walk or answer just for them. nobody is told - not us, not anyone. can i walk with you? isn't monitored in real time and isn't an emergency service. if you're in danger, call or text 988 in the US, or your local emergency number.
+- **if it sounds like someone is in danger right now**, it's never treated as breaking a rule: the app shows them, privately, where they can talk to someone right now (988 in the US), and keeps their walk or answer just for them. nobody is told - not us, not anyone. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
 
 **the AI can make mistakes**, in either direction. if you think it got something wrong, you can ask for a person to review it at hello@caniwalkwithyou.com. passing the check doesn't mean we've approved what anyone says, and it doesn't replace reports (section 16).
 
@@ -127,7 +127,7 @@ while you record a talk-walk, the app records the path you walk, and while you l
 
 people talk about real things on their walks: grief, heartbreak, hard days. that's what the app is for. but **nothing in the app is medical, mental health, legal or financial advice**, and nobody on it is your doctor or therapist.
 
-**in a crisis**: can i walk with you? isn't monitored in real time and isn't an emergency service. if you're in danger, call or text 988 in the US, or your local emergency number. the app shows help lines in settings, in report menus, and whenever a walk or a search touches on self-harm or suicide.
+**in a crisis**: we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US, or find your country's free helpline at findahelpline.com. the app shows help lines in settings, in report menus, and whenever a walk or a search touches on self-harm or suicide.
 
 ## 15. private answers
 
