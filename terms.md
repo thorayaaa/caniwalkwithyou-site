@@ -140,16 +140,32 @@ an answer you send to a talker is private: only that talker can hear it in the a
 - **we review reports and remove anything that breaks our rules.** if enough different people report the same walk or answer, it's hidden from everyone but the person who posted it until we've looked.
 - **we can hold, label, limit or remove any content, and suspend or remove any account**, with or without warning, when we believe it breaks these terms or the community guidelines, or to protect people. we don't have to monitor everything, and we can't promise to catch everything. we don't do background checks on the people who use the app.
 
-## 17. copyright (DMCA)
+<a id="copyright"></a>
 
-if you believe something in the app copies your work without permission, send a notice to hello@caniwalkwithyou.com (or by post to Hey Stranger LLC, 1872 Lexington Ave #143, New York, NY 10035) with:
+## 17. copyright
 
-1. your name and contact details, and your signature (typed is fine);
-2. what work you own, and where it is in the app (the walk, answer or profile);
-3. a statement that you believe in good faith the use isn't authorised by you, your agent or the law;
-4. a statement, under penalty of perjury, that your notice is accurate and that you own the work or may act for the owner.
+we respect other people's work, and you must too: don't post anything that copies someone else's work without their permission (see section 5).
 
-we'll remove or disable what you report and tell the person who posted it. **counter-notice:** if your content was removed and you believe that was a mistake, send hello@caniwalkwithyou.com your name and contact details, what was removed and where it was, a statement under penalty of perjury that you believe it was removed by mistake, your consent to the federal court for your area (or, outside the US, any court where we can be found), and your signature. we may put it back after 10 business days unless the person who complained tells us they've gone to court. **we close the accounts of people who repeatedly post other people's work.**
+**sending a copyright complaint.** if you believe something in the app copies your work without permission, send a complaint to our designated agent:
+
+Hey Stranger LLC<br>
+1872 Lexington Ave, Ste 143<br>
+New York, NY 10035<br>
+hello@caniwalkwithyou.com
+
+(you can also use the takedown form on our [support page](/support/#takedown)). please include:
+
+1. your name, postal address, phone number and email, and your signature (a typed name is fine);
+2. the work you own that you believe is being copied (or, if there are several, a list of them);
+3. where it is in the app - the walk's link or name, the talker's @handle, or the answer - so we can find it;
+4. a statement that you believe in good faith that the use isn't authorised by the owner, their agent or the law;
+5. a statement that the information in your complaint is accurate and, under penalty of perjury, that you own the work or are authorised to act for the owner.
+
+**what we do.** after a valid complaint, we remove or disable the content and tell the person who posted it.
+
+**counter-notice.** if your content was removed and you believe that was a mistake, send the address above your name and contact details, what was removed and where it was, a statement under penalty of perjury that you believe it was removed by mistake, your consent to the federal court for your area (or, outside the US, any court where we can be found), and your signature. we may put it back after 10 business days unless the person who complained tells us they've gone to court.
+
+**repeat infringers.** we close the accounts of people who repeatedly post content that infringes copyright.
 
 ## 18. ending your account
 
