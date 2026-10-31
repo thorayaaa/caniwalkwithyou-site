@@ -102,7 +102,7 @@ also don't:
 
 you need the consent of anyone who can be identified in what you post (by their voice, their face, or their name). **in California, recording a confidential conversation needs the consent of everyone in it** (California Penal Code section 632), and other places have similar laws. don't record anyone's private conversation, even by accident in the background, and don't post a recording of someone who asked you not to. a listener's microphone is on only during their turn to answer; the app tells them before they start.
 
-you'll often walk in public, where other people's voices can be heard in the background. keep it that way: don't follow, film or record anyone on purpose, don't name, describe or expose a private person so they can be recognised, and stop or re-record if someone near you is having a private conversation. the AI check holds recordings that name or expose private people. **if you're not on the app and you hear yourself in a walk**, or someone talks about you in a way you didn't agree to, write to hello@caniwalkwithyou.com with the walk's name and we'll look at it, and take it down when it breaks these rules.
+you'll often walk in public, where other people's voices can be heard in the background. keep it that way: don't follow, film or record anyone on purpose, don't name, describe or expose a private person so they can be recognised, and stop or re-record if someone near you is having a private conversation. the AI check holds recordings that name or expose private people. **if you're not on the app and you hear yourself in a walk**, or someone talks about you in a way you didn't agree to, use the takedown form on our [support page](/support/#takedown) (or write to hello@caniwalkwithyou.com) with the walk's link or the talker's name, and we'll look at it, and take it down when it breaks these rules.
 
 ## 11. posting anonymously
 
@@ -165,7 +165,7 @@ you can stop using the app and delete your account whenever you like (settings â
 
 ## 20. other services
 
-the app relies on services run by other companies: Apple (sign in with Apple, notifications, maps, step counts, turning a location into a city name, on-device speech recognition, and any payments), Anthropic (the AI check), Deepgram (turning a reported recording into text), Supabase (where accounts and posts are stored), Resend (email), place search for the first version's route features (Apple Maps, OpenStreetMap), and Cloudflare (the check that you're not a bot, when it's on). they have their own terms and privacy policies, and we're not responsible for them. our [privacy policy](/privacy/) says what each one gets.
+the app relies on services run by other companies: Apple (sign in with Apple, notifications, maps, step counting on your phone, turning a location into a city name, on-device speech recognition, and any payments), Anthropic (the AI check), Deepgram (turning a reported recording into text), Supabase (where accounts and posts are stored), Resend (email), place search for the first version's route features (Apple Maps, OpenStreetMap), and Cloudflare (the check that you're not a bot, when it's on). they have their own terms and privacy policies, and we're not responsible for them. our [privacy policy](/privacy/) says what each one gets.
 
 ## 21. "as is"
 

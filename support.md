@@ -63,6 +63,52 @@ tap "unsubscribe" at the bottom of any of them - one tap and you're off the list
 ### how do I delete a walk, or my account?
 a walk: open it, "⋯" → delete. your account: your profile → ⋯ → settings → delete account, then type "delete". deleting removes the recordings too. our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept.
 
+<a id="takedown"></a>
+
+## a takedown request
+
+not on the app, and a walk has your voice in it without your agreement, uses your work, or something else is wrong? tell us here. it comes straight to the same inbox as reports in the app, and we'll reply by email.
+
+<style>
+  #takedown-form label { display: block; margin: 16px 0 6px; font-weight: 700; }
+  #takedown-form input[type=email], #takedown-form input[type=text], #takedown-form textarea { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  #takedown-form textarea { min-height: 110px; resize: vertical; }
+  #takedown-form .choice { display: flex; align-items: center; gap: 10px; min-height: 44px; font-weight: 400; margin: 0; }
+  #takedown-form .choice input { width: 20px; height: 20px; accent-color: var(--red); }
+  #takedown-form .trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  #takedown-result { font-weight: 700; }
+</style>
+
+<p id="takedown-result" role="status" hidden></p>
+<form id="takedown-form" method="post" action="https://pencwliltbpwagjteugt.supabase.co/functions/v1/takedown-request">
+  <label for="td-email">your email</label>
+  <input id="td-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+  <label for="td-where">the walk's link, or the talker's name</label>
+  <input id="td-where" name="where" type="text" maxlength="500" required>
+  <fieldset style="border:0;padding:0;margin:16px 0 0;">
+    <legend style="font-weight:700;padding:0;">what's wrong?</legend>
+    <label class="choice"><input type="radio" name="reason" value="recorded" required> recorded without agreeing</label>
+    <label class="choice"><input type="radio" name="reason" value="copyright"> copyright</label>
+    <label class="choice"><input type="radio" name="reason" value="other"> something else</label>
+  </fieldset>
+  <label for="td-details">anything else we should know (optional)</label>
+  <textarea id="td-details" name="details" maxlength="2000"></textarea>
+  <div class="trap" aria-hidden="true"><label for="td-website">leave this empty</label><input id="td-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+  <input type="hidden" name="t" id="td-t">
+  <button type="submit" class="pill" id="td-send">send</button>
+</form>
+<noscript><p class="quiet">this form needs javascript turned on. you can also write to <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p></noscript>
+<p class="quiet">for copyright, include the details in our <a href="/terms/#copyright">terms</a> (what you own, where it is, and the two statements). we only use your email to answer you.</p>
+<script>
+  (function () {
+    document.getElementById('td-t').value = String(Date.now());
+    var said = { sent: "sent - thank you. we'll look at it and reply by email.", check: 'please add your email, the walk, and what\'s wrong.', limited: 'too many requests just now - try again later, or write to us.', error: "that didn't send. please try again, or write to us." };
+    var r = new URLSearchParams(location.search).get('takedown');
+    if (r && said[r]) { var p = document.getElementById('takedown-result'); p.textContent = said[r]; p.hidden = false; }
+    document.getElementById('takedown-form').addEventListener('submit', function () { document.getElementById('td-send').disabled = true; });
+  })();
+</script>
+
 ## something unsafe?
 
 we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number.
