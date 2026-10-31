@@ -7,175 +7,218 @@ description: the rules for using can i walk with you?, in plain words.
 
 # terms
 
-<p class="updated">last updated {{ site.last_updated }}</p>
+<p class="updated">last updated October 31, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
 
-- be kind. no hate, harassment, threats or sexual content - we have zero tolerance for it, and we remove it and the accounts that post it.
-- what you make is yours. you let us show it in the app to the people you've chosen.
-- routes are made by other walkers, not checked by us. you decide whether a route is safe for you, every time.
-- walking has risks, and by walking or making a route you accept them. the app isn't an emergency service - in an emergency, call 911.
-- a subscription is needed to use the app, sold through Apple. new walkers can start with a free trial.
-- disagreements are settled by individual arbitration, not in court. you can opt out within 30 days.
+- can i walk with you? is talk-walks: people talk while they walk, and strangers walk with them from anywhere, listening and answering by voice.
+- you must be 18 or older.
+- talkers are recorded (voice and path). a listener's microphone is on only during their turn to answer, and they're told before they start.
+- you decide who hears what you said: just you, the talker, or everyone - under your name or anonymously.
+- your words are turned into text on your phone and checked by an AI, and sometimes by a person, before anyone else hears them. if a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and you can ask a person to look.
+- what you make stays yours. you let us run it in the app. "share in other media" is a separate switch, off unless you turn it on.
+- nobody has to do anything a talker says. stay aware of where you are. walking has risks, and you accept them.
+- the app isn't therapy. can i walk with you? isn't monitored in real time and isn't an emergency service. if you're in danger, call or text 988 in the US, or your local emergency number.
+- the app is free to use today. if it ever offers a subscription, it's sold through Apple, and you choose whether to buy it.
+- disagreements are settled by individual arbitration, not in court, and you can opt out within 30 days.
 </div>
 
 ## 1. agreeing to these terms
 
-these terms are an agreement between you and {% if site.operator_name != "" %}{{ site.operator_name }}{% if site.operator_kind != "" %}, {{ site.operator_kind }}{% endif %}{% else %}the maker of can i walk with you?{% endif %} ("we", "us"). by creating an account or using the app, you agree to them and to our [privacy policy](/privacy/). if you don't agree, please don't use the app.
+these terms are an agreement between you and Hey Stranger LLC, a California limited liability company ("we", "us"), which makes can i walk with you? ("the app"). by creating an account or using the app, you agree to these terms, our [community guidelines](#community-guidelines) and our [privacy policy](/privacy/). if you don't agree, please don't use the app.
 
-## 2. who can use the app
+## 2. you must be 18 or older
 
-{% if site.minimum_age != "" %}you must be at least {{ site.minimum_age }} years old to use can i walk with you?.{% else %}can i walk with you? isn't made for children.{% endif %} you can't use the app if we've removed you from it before.
+you must be at least 18 years old, and able to make a binding contract, to use the app. when you sign up, the app asks for your date of birth only to check that you're 18 or older; we keep only the answer, never the date. if we learn that someone under 18 is using the app, we close their access and hide everything they posted. you can't use the app if we've removed you from it before.
 
 ## 3. your account
 
-- keep your password to yourself. you're responsible for what happens on your account.
+- give us true information when you sign up, and keep it up to date.
+- keep your login to yourself. you're responsible for what happens on your account.
 - one person per account. don't pretend to be someone else, and don't pick a handle that does.
-- if you think someone else is using your account, tell us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
-- you can delete your account at any time from settings. our [privacy policy](/privacy/#deleting-your-account) explains what that removes.
+- if you think someone else is using your account, tell us at hello@caniwalkwithyou.com.
+- you can delete your account at any time in the app: settings → delete account. our [privacy policy](/privacy/) explains what that removes and what we have to keep.
 
-## 4. subscriptions
+## 4. what a talk-walk is
 
-- a subscription is needed to use can i walk with you?. subscriptions are sold and billed by Apple, through your Apple account, and Apple's terms apply to them too.
-- new walkers can start with a free trial. you'll see how long it lasts before you start. if you don't cancel at least 24 hours before it ends, your subscription starts and you're charged.
-- you'll always see the price before you buy.
-- subscriptions renew automatically unless you cancel at least 24 hours before the end of the current period. you can cancel any time in your iPhone's settings, under your Apple account and subscriptions.
-- refunds are handled by Apple.
-- some people, like early walkers, get the subscription free.
-- if we change the price, we'll tell you first, and you can cancel before it applies.
+- **talkers** record a talk-walk while they walk: they talk as if a stranger were walking next to them. they can mark spots along the way (with photos or videos), and "pass the mic" at moments they choose, to ask the listener something.
+- **listeners** walk with a talk-walk from wherever they are. at each pass of the mic, the listener's microphone turns on and it's their turn to answer out loud. they can redo, skip or say "i'm done", with a button or by saying it (voice commands). at the end they can say anything back.
+- **answers** go privately to the talker, unless the listener chooses to share them publicly under the walk, or keep them just for themselves.
+- **your journal.** a talker can walk their own walk and answer their own questions; that's a journal entry only they can hear.
+- **posting.** a talker posts a walk as themselves (their @handle) or anonymously, and can add a route map (the start and end are always hidden by the amount the talker chooses), a cover photo, spot photos, topics, a heads-up for sensitive topics, and a changed voice instead of their own.
+- **routes.** the app still has some features from its first version (routes and walks of routes). where it does, the route parts of these terms (sections 12 and 13) apply to them.
 
-## 5. what you post
+## 5. what you make is yours
 
-- **what you make is yours** - your routes, walks, notes, photos, videos, drawings and comments.
-- **you let us use it to run the app.** we store it, and show it in the app to the people you've chosen (everyone, only your followers, or only you). this permission ends when you delete it or your account. it doesn't cover copies other people already have, like a share card someone saved.
-- **only post what you have the right to post.** that means your own photos and words, and nothing that belongs to someone else.
-- **be careful with other people.** don't post someone's photo, name or private details without their permission. don't make a stop at someone's home - the app warns you if a route's start looks like a home address.
-- **prompts can't ask walkers to do anything risky or unsafe** - like drinking, smoking, climbing, swimming, or going somewhere they shouldn't. the app won't save a prompt that does.
+your walks, recordings, answers, voice versions, photos, routes, names, descriptions, spot names, topics and notes stay yours. you confirm that you have the rights to everything in them - your own voice, your own photos and words, and nothing that belongs to someone else (for example, music playing in the background, or someone else's photo).
 
-**using what you share.** when you post something publicly in can i walk with you? (photos, videos, voice notes, doodles, writing, routes or walks), you give {% if site.operator_name != "" %}{{ site.operator_name }}{% else %}us{% endif %} permission to show, share and feature it, with credit to your @handle, in the app and in our marketing, including our social media and YouTube videos, without payment to you. you still own what you post. we won't feature anything you've marked private. you can turn off featuring in settings, and you can ask us to remove a feature at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+## 6. the permission you give us to run the app
 
-## 6. the rules - zero tolerance
+so the app can work, you give us a non-exclusive, worldwide, royalty-free permission to store, copy, host, transcribe (turn into text), check, convert (for example into a changed voice), play and show what you post, **inside the app**, to the people you've chosen. we can let the services that run the app for us (section 20) do this on our behalf. this permission is only for running, improving and protecting the app; it doesn't let us sell your content or use it anywhere else.
 
-we have **zero tolerance for objectionable content and abusive users**. don't post or send anything that:
+this permission ends when you delete the content or your account, except for:
 
-- is hateful, or attacks people for who they are (race, ethnicity, religion, disability, gender, sexual orientation, or anything like it)
-- harasses, bullies, threatens or intimidates anyone
-- is sexual, sexually explicit or pornographic, or sexualises anyone under 18
-- shows or encourages violence, self-harm, or illegal activity
-- shares someone's private information, like where they live
-- is spam, a scam, or pretends to be someone else
+- copies in backups, until they're overwritten in the normal way;
+- things we have to keep for legal or safety reasons (for example, after a report, or when the law requires it) - our [privacy policy](/privacy/) says what and for how long.
 
-also don't: try to get into someone else's account, collect other people's information, scrape the app, break or overload it, or try to get around a block.
+## 7. share in other media (optional, off unless you turn it on)
 
-## 7. reporting, blocking and removal
+each walk you post, and each set of answers you send at the end of a walk, has its own switch: **"share in other media"**. it's **off** unless you turn it on. you can set it when you post or send, change it any time from that walk's or answer's "⋯" menu, and choose a default for your new walks in settings.
 
-- **report** anything that breaks these rules: tap "⋯" on a post, a walk, a prompt answer, a profile, a route or a comment. reports come straight to us, and the person you report is never told who reported them.
-- **block** someone to stop seeing each other anywhere in the app. blocking also removes both of your comments, likes and reposts from each other's walks and routes.
-- **you can delete comments** on your own walks and routes.
-- **we review reports within 24 hours.** if 3 different people report the same post, walk, prompt answer, route or comment, it's hidden from everyone but the person who posted it until we've reviewed it. a person is never hidden just because they were reported - we review it first. we remove content that breaks these rules. we suspend or remove the accounts that post it, and may do that without warning.
+- **only while it's on**, you let us feature that walk or those answers - the audio, the text version, photos, and your @handle or "anonymous" - in full or in part, in other media now known or later created (for example videos, podcasts, books or films).
+- **anonymous posts are never named.** if you posted anonymously, we never connect it to your name or @handle anywhere.
+- only answers you shared publicly can be featured - never a private answer, and never anything that isn't public in the app.
+- **turning it off** stops new uses from then on. it can't pull back what's already out or already being made (a book printed, an episode published, a film in production).
+- you aren't paid for this unless we agree on it separately, in writing.
+- we keep a record of when you turned it on and off.
+- a change to these terms never turns the switch on for you (section 26).
 
-## 8. walking safely
+## 8. using the app the right way
 
-**routes are made by other walkers. we don't visit, check or vouch for them.** places change - construction, lighting, traffic, weather, the time of day - and a route that felt fine to the person who made it may not be right for you, today.
+follow our [community guidelines](#community-guidelines). they're in the app (settings → community guidelines, and on the sign-up screen). we have **zero tolerance for objectionable content and abusive users**.
 
-**you're responsible for your own safety, and for deciding whether and how to walk any route or visit any stop.** before and during a walk:
+also don't:
 
-- look up the area yourself and use your own judgment - not only what the app shows
-- prefer daylight, and areas you already know or that are well-traveled
-- tell someone you trust where you're going, especially for a new route
-- watch where you're going, not your phone, and follow traffic rules
-- respect private property and the rules of every place you visit
-- stop or turn back if anything feels wrong - trust that over finishing the route
+- scrape, copy or collect content or information from the app, with bots or by hand;
+- hack, break, overload or get around the app's security, limits or blocks;
+- try to get into someone else's account;
+- use anything from the app to train an AI or machine-learning model;
+- sell or advertise things, or ask anyone for money, gifts, contact details or to meet up.
 
-**walking has risks.** traffic, uneven ground, weather, darkness, other people, and places changing. by walking a route or making one, you accept those risks.
+## 9. the AI check
 
-**your health.** walk within your own limits, and check with a doctor if you're not sure walking is right for you. the app isn't medical advice.
+**before anyone else hears a walk you post or an answer you send or share, it's checked** - only after you've said ok to the AI check (otherwise it stays just for you). your phone turns the recording into text (on the phone - the recording itself isn't sent anywhere for this). that text, and the walk's name, description, spot names, topics and notes, is sent to a third-party AI service (Anthropic's Claude), which checks it against the community guidelines. if your phone can't make the text, a person on our team listens instead. **if a walk or an answer is reported**, its recording is sent to a speech-to-text service (Deepgram) to be turned into text, and checked again. sometimes a person on our team looks too.
 
-**emergencies.** the app isn't an emergency service. in an emergency, call 911 or your local emergency number.
+- **clear:** it goes live, and we tell you.
+- **not allowed:** it isn't posted. you're told which rule and where, and you can re-record, keep it just for yourself, or delete it.
+- **held:** parts with graphic details are held for you to decide - cut that part, keep it just for yourself, or ask a person on our team to look. if the check is unsure, it's held until a person on our team looks, and we tell you what we decide.
+- **sensitive topics:** the check can add a heads-up for sensitive topics to a walk. only we can take it off.
+- **if it sounds like someone is in danger right now**, it's never treated as breaking a rule: the app shows them, privately, where they can talk to someone right now (988 in the US), and keeps their walk or answer just for them. nobody is told - not us, not anyone. can i walk with you? isn't monitored in real time and isn't an emergency service. if you're in danger, call or text 988 in the US, or your local emergency number.
 
-our [safety tips](/safety/) put all of this in one place.
+**the AI can make mistakes**, in either direction. if you think it got something wrong, you can ask for a person to review it at hello@caniwalkwithyou.com. passing the check doesn't mean we've approved what anyone says, and it doesn't replace reports (section 16).
 
-the app asks every account to agree to this before its first walk, and to the rules for making routes (section 9) before its first route. every time you publish a route, it asks you to confirm the route is on public places and doesn't start at anyone's home. we keep a record of each of these, with the date. it also reminds you on the way to a route's start that routes aren't checked by us, and at the start of every walk, and when you make a route, to watch where you're going, not your phone.
+## 10. recording other people
 
-## 9. making routes
+you need the consent of anyone who can be identified in what you post (by their voice, their face, or their name). **in California, recording a confidential conversation needs the consent of everyone in it** (California Penal Code section 632), and other places have similar laws. don't record anyone's private conversation, even by accident in the background, and don't post a recording of someone who asked you not to. a listener's microphone is on only during their turn to answer; the app tells them before they start.
 
-**route makers are responsible for their routes.** a route you make must use public places that are legal and reasonably safe to walk - never private property without permission, and never someone's home. that includes the start and every stop. watch where you're going, not your phone, while you make it.
+you'll often walk in public, where other people's voices can be heard in the background. keep it that way: don't follow, film or record anyone on purpose, don't name, describe or expose a private person so they can be recognised, and stop or re-record if someone near you is having a private conversation. the AI check holds recordings that name or expose private people. **if you're not on the app and you hear yourself in a walk**, or someone talks about you in a way you didn't agree to, write to hello@caniwalkwithyou.com with the walk's name and we'll look at it, and take it down when it breaks these rules.
 
-## 10. your location
+## 11. posting anonymously
 
-the app records where you walk while a walk or a route recording is going (our [privacy policy](/privacy/) explains exactly when). **you accept the risks of recording and sharing where you walked, including that a posted walk shows the exact streets you took**, from start to finish, to the people who can see it. you choose who can see each walk, and you can make your profile private.
+when you post a walk or an answer as "anonymous", other people in the app see "anonymous" instead of your name, @handle and photo. **it hides you from other users only.** we still know which account posted it, and we may share who you are if the law requires it, or if someone's safety depends on it (for example, a threat to hurt someone). the city you walked in can still show. the rules apply to anonymous posts exactly as to any other, and you're responsible for them.
 
-## 11. we don't screen people
+## 12. walking at your own risk
 
-we don't do background checks on the people who use the app, and we don't check what they post before it goes up. we act on reports (section 7).
+**the app isn't a navigation or safety service.** a talk-walk is someone talking; it's never an instruction, and nobody has to do anything a talker says. you decide where you go and what you do.
 
-## 12. maps, directions and places
+- **stay aware of where you are.** look up. keep your volume low enough, or one earbud out, to hear traffic and people around you. stick to public, well-lit paths. stop talking or listening when you need to focus. watch where you're going, not your phone, and follow traffic rules and local laws.
+- **routes are made by other walkers. we don't visit, check or vouch for them.** places change - construction, lighting, traffic, weather, the time of day - and a route that felt fine to the person who made it may not be right for you, today. look the area up yourself, prefer daylight and places you know, tell someone you trust where you're going, respect private property, and stop or turn back if anything feels wrong.
+- **making routes:** a route you make must use public places that are legal and reasonably safe to walk - never private property without permission, and never someone's home. that includes the start and every stop. prompts can't ask walkers to do anything risky.
+- **walking has risks** - traffic, uneven ground, weather, darkness, other people, places changing. by walking with the app (talking, listening, or walking a route), you accept those risks. **you're responsible for your own safety.**
+- **your health:** walk within your own limits, and check with a doctor if you're not sure walking is right for you.
+- **you have to be walking.** walks and answers post for others only if you were actually walking (about 100 meters, or about 2 minutes of moving or stepping). if walking isn't possible for you, you can say so in settings ("walking isn't possible for me"), no explanation needed.
 
-maps, walking directions and place information come from Apple and OpenStreetMap, and from what other walkers typed in. they can be wrong, out of date or incomplete - a path may be closed, or a place may have closed or changed its hours. always follow what you see around you and any signs, not the app.
+## 13. your location
 
-## 13. ending things
+while you record a talk-walk, the app records the path you walk, and while you listen, your phone records yours. on a talk-walk you post with its route shown, **the start and end are hidden** from everyone else by the amount you choose, and the spots on the part that's shown appear on its map where you marked them. you can hide the route completely. a listener's route is sent only if they choose to show it, without its start and end. the city where you walked shows with your walk or answers, even anonymous ones. in the first version's route features, a posted route, or a walk of a route, shows the streets it took to the people who can see it. you accept the risks of sharing where you walked. our [privacy policy](/privacy/) explains exactly what's recorded and when.
 
-you can stop using the app and delete your account whenever you like. we can suspend or end your access if you break these terms, or to protect other people. we may change or stop the app, or parts of it, at any time.
+## 14. not therapy, not advice
 
-## 14. the legal part
+people talk about real things on their walks: grief, heartbreak, hard days. that's what the app is for. but **nothing in the app is medical, mental health, legal or financial advice**, and nobody on it is your doctor or therapist.
 
-we work hard on the app, but we provide it "as is", without promises that it will always work, be accurate, or be available.
+**in a crisis**: can i walk with you? isn't monitored in real time and isn't an emergency service. if you're in danger, call or text 988 in the US, or your local emergency number. the app shows help lines in settings, in report menus, and whenever a walk or a search touches on self-harm or suicide.
 
-as far as the law allows, we're not responsible for:
+## 15. private answers
 
-- anything that happens to you or your things while walking a route, visiting a stop, or meeting anyone
-- anything other people post
-- losses that come indirectly from using the app
+an answer you send to a talker is private: only that talker can hear it in the app. we may still listen to it, read its text version, or review it to keep people safe - for example, when it's checked (section 9), after a report, or when the law requires it.
 
-**release and promise not to sue.** as far as the law allows, you release us from claims connected to walking routes, making routes, visiting stops, and using the app, and you agree not to sue us over them.
+## 16. reporting, blocking and moderation
 
-**covering our costs.** if a claim is made against us because of something you posted or did - including your routes, prompts, photos, or how you walked - you'll cover our reasonable costs, including legal fees, but only where the arbitration rules and the law allow it.
+- **report** a walk, an answer or a person: tap "⋯" and pick the guideline it breaks. reports come straight to us, and the person you report is never told who reported them.
+- **block** someone: they can't hear your walks or send you answers, and you won't see theirs. they aren't told.
+- **we aim to review every report within 24 hours.** if enough different people report the same walk or answer, it's hidden from everyone but the person who posted it until we've looked.
+- **we can hold, label, limit or remove any content, and suspend or remove any account**, with or without warning, when we believe it breaks these terms or the community guidelines, or to protect people. we don't have to monitor everything, and we can't promise to catch everything. we don't do background checks on the people who use the app.
 
-**the most we could owe you.** as far as the law allows, if we're ever responsible to you for anything, the most we'd owe is what you paid us in the 12 months before the claim, or $100, whichever is more.
+## 17. copyright (DMCA)
 
-**passing the app on.** we may transfer these terms and the app to a company we own or control, or to a new owner.
+if you believe something in the app copies your work without permission, send a notice to hello@caniwalkwithyou.com (or by post to Hey Stranger LLC, 1872 Lexington Ave #143, New York, NY 10035) with:
 
-**if part of these terms doesn't hold.** if any part of these terms can't be enforced, the rest still applies.
+1. your name and contact details, and your signature (typed is fine);
+2. what work you own, and where it is in the app (the walk, answer or profile);
+3. a statement that you believe in good faith the use isn't authorised by you, your agent or the law;
+4. a statement, under penalty of perjury, that your notice is accurate and that you own the work or may act for the owner.
 
-nothing in these terms takes away rights that the law says you always have.
+we'll remove or disable what you report and tell the person who posted it. **counter-notice:** if your content was removed and you believe that was a mistake, send hello@caniwalkwithyou.com your name and contact details, what was removed and where it was, a statement under penalty of perjury that you believe it was removed by mistake, your consent to the federal court for your area (or, outside the US, any court where we can be found), and your signature. we may put it back after 10 business days unless the person who complained tells us they've gone to court. **we close the accounts of people who repeatedly post other people's work.**
 
-## 15. changes to these terms
+## 18. ending your account
 
-if we change these terms in a way that matters, we'll tell you in the app: you'll see a short notice the next time you open it, on or after the day the change takes effect. if you keep using the app after that, you agree to the new terms.
-{% if site.governing_law != "" %}
-## 16. the law that applies
+you can stop using the app and delete your account whenever you like (settings → delete account). we can suspend or end your access if you break these terms or the community guidelines, or to protect other people, and we may change or stop the app, or parts of it, at any time. sections 5, 6 (the exceptions), 7 (what's already out), 10, 11, 12, 14, 21, 22, 23, 24 and 26 still apply after your account ends.
 
-these terms are governed by the laws of {{ site.governing_law }}.
-{% endif %}
-## 17. settling disagreements: arbitration
+## 19. paid features
 
-**talk to us first.** before either of us starts an arbitration or a small claims case, the one with the problem emails the other - you email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> - saying what's wrong and what they'd like done about it. then we both try to sort it out for 60 days. only after that can either of us start a case.
+- **the app is free to use today**, and nothing in it is charged.
+- if the app offers a subscription, it's sold and billed by Apple, through your Apple account, as an in-app purchase, and Apple's terms apply to it too. you'll see the price, how long it lasts and any free trial in the app before you buy, and nothing is charged unless you choose to subscribe.
+- subscriptions renew automatically unless you cancel at least 24 hours before the end of the trial or the current period. you can cancel any time in your iPhone's settings → your name → subscriptions.
+- refunds are handled by Apple, under Apple's rules - we can't give them ourselves.
+- if we change a price, we'll tell you first, and you can cancel before it applies.
 
-**arbitration instead of court.** if you and we have a disagreement about the app or these terms, it will be settled by binding individual arbitration, not in court. an arbitrator decides it instead of a judge or jury, and the decision is final. the arbitration is run by the American Arbitration Association (AAA) under its Consumer Arbitration Rules.
+## 20. other services
 
-**only for yourself.** each of us can bring claims only for ourselves - not as part of a class action, a group lawsuit or any other kind of representative case, and an arbitrator can't combine claims from different people.
+the app relies on services run by other companies: Apple (sign in with Apple, notifications, maps, step counts, turning a location into a city name, on-device speech recognition, and any payments), Anthropic (the AI check), Deepgram (turning a reported recording into text), Supabase (where accounts and posts are stored), Resend (email), place search for the first version's route features (Apple Maps, OpenStreetMap), and Cloudflare (the check that you're not a bot, when it's on). they have their own terms and privacy policies, and we're not responsible for them. our [privacy policy](/privacy/) says what each one gets.
 
-**small claims court.** either of us can take a claim to small claims court instead, if it qualifies there.
+## 21. "as is"
 
-**many claims at once.** if many similar claims are filed against us at the same time by people using the same lawyers, they're handled in batches under the AAA's rules for mass arbitration, rather than all at once.
+we work hard on the app, but we provide it **"as is" and "as available"**, without promises - as far as the law allows - that it will always work, be accurate, be safe, or be available, or that the AI check, the hidden start and end of a walk, or anything else will always work as described. **we're not responsible for what other people say or do** in the app, or for anything you do because of something you heard.
 
-**protecting the public.** if a claim asks a court for an order that protects the public (what California law calls public injunctive relief), that request stays in court - and it waits until the arbitration of everything else in that disagreement is finished.
+## 22. the most we could owe you
 
-**if the "only for yourself" part can't be enforced.** if a court decides the "only for yourself" part can't be enforced for a claim, that claim goes to court instead of arbitration, and the rest of this section still applies to everything else.
+as far as the law allows, we're not responsible for anything that happens to you or your things while walking, talking, listening or using the app, for what other people post or say, or for losses that come indirectly from using the app. if we're ever responsible to you for anything, the most we'd owe is what you paid us in the 12 months before the claim, or $100, whichever is more.
 
-**the details.**
+## 23. covering our costs
 
-- the Federal Arbitration Act applies to this section.
-- the arbitrator decides whether a disagreement has to go to arbitration.
-- hearings can be by phone or video, or in person in the county where you live.
-- either of us can take a claim about intellectual property (like copyright or trademarks) to court.
-- anything that isn't arbitrated goes to the state or federal courts in San Diego County, California.
+if a claim is made against us because of something you posted, said or did in or with the app - including your recordings, photos, routes, or how you walked - or because you broke these terms or someone's rights, you'll cover our reasonable costs, including legal fees, as far as the law allows.
 
-**opting out.** you can opt out of arbitration within 30 days of first agreeing to these terms. if we change these terms later, you can also opt out within 30 days of the day the app tells you about the change. email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> with your name, your handle, and a line saying you opt out of arbitration. opting out doesn't change anything else in these terms.
+## 24. settling disagreements
 
-**the law that applies.** {% if site.governing_law != "" %}the laws of {{ site.governing_law }} still apply, as section 16 says.{% else %}the law that applies doesn't change.{% endif %}
+**the law that applies.** these terms are governed by the laws of the State of California, without regard to its conflict-of-law rules.
 
-## contact
+**talk to us first.** before either of us starts a case, the one with the problem writes to the other - you write to hello@caniwalkwithyou.com - saying what's wrong and what they'd like done. then we both try to sort it out for 60 days.
 
-questions about these terms: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+**arbitration instead of court.** if we can't, the disagreement is settled by binding individual arbitration, not in court, run by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. the Federal Arbitration Act applies. hearings can be by phone or video, or in person in the county where you live. either of us can take a claim to small claims court instead, if it qualifies, and either of us can take a claim about intellectual property to court. anything that isn't arbitrated goes to the state or federal courts in San Diego County, California.
+
+**only for yourself.** each of us can bring claims only for ourselves - not as part of a class action or any other group or representative case. if many similar claims are filed at once by people using the same lawyers, they're handled in batches under the AAA's mass arbitration rules. a request for public injunctive relief stays in court, after the arbitration of everything else. if a court decides the "only for yourself" part can't be enforced for a claim, that claim goes to court, and the rest of this section still applies.
+
+**opting out.** you can opt out of arbitration within 30 days of first agreeing to these terms (and within 30 days of being told about a change to them), by writing to hello@caniwalkwithyou.com with your name, your handle, and a line saying you opt out of arbitration. opting out doesn't change anything else.
+
+## 25. Apple
+
+if you got the app from Apple's App Store:
+
+- these terms are between you and us, not Apple. Apple isn't responsible for the app or its content.
+- your permission to use the app is limited to Apple devices you own or control, under the App Store's usage rules. Apple's standard end-user license agreement applies where these terms don't cover something.
+- Apple has no obligation to provide maintenance or support for the app.
+- if the app fails to do what we promise, you can tell Apple, and Apple may refund the price you paid for it; beyond that, Apple has no other warranty obligation.
+- Apple isn't responsible for any claims about the app (product liability, failing to meet a legal or regulatory requirement, or consumer protection law). we are, as far as these terms say.
+- if anyone claims the app breaks their intellectual property rights, we, not Apple, are responsible for dealing with it.
+- you confirm you're not in a country under a US government embargo, or on a US government list of prohibited or restricted parties.
+- Apple and its subsidiaries can enforce these terms against you as a third party.
+
+## 26. changes to these terms, and the rest
+
+- **changes.** if we change these terms in a way that matters, we'll tell you in the app before the change takes effect, and when it matters we ask you to agree. if you keep using the app after that, you agree to the new terms. **a change never turns "share in other media" on** for any walk or answer.
+- **passing the app on.** we may transfer these terms and the app to a company we own or control, or to a new owner.
+- **if part of these terms doesn't hold**, the rest still applies.
+- **not giving up rights.** if we don't enforce part of these terms right away, we can still enforce it later.
+- **the whole agreement.** these terms, the community guidelines and the privacy policy are the whole agreement between you and us about the app.
+- nothing in these terms takes away rights that the law says you always have.
+
+## 27. contact
+
+Hey Stranger LLC
+1872 Lexington Ave #143, New York, NY 10035
+
+- questions and help: hello@caniwalkwithyou.com
+- legal notices, copyright and opting out of arbitration: hello@caniwalkwithyou.com
+
+<a id="community-guidelines"></a>*the community guidelines are in the app: settings → community guidelines.*
