@@ -148,7 +148,7 @@ we respect other people's work, and you must too: don't post anything that copie
 
 **sending a copyright complaint.** if you believe something in the app copies your work without permission, send a complaint to our designated agent:
 
-Hey Stranger LLC<br>
+Copyright Agent, Hey Stranger LLC<br>
 1872 Lexington Ave, Ste 143<br>
 New York, NY 10035<br>
 hello@caniwalkwithyou.com
