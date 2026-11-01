@@ -1,0 +1,98 @@
+---
+layout: default
+title: delete for good
+noindex: true
+description: delete a reported walk for good.
+---
+<!-- Batch AY item 2: the report email's "delete it for good" link opens this page (through the delete-for-good
+     function, which only passes the token on). Opening it deletes nothing - an email scanner that opens links can't
+     delete anything. The page asks the function for the walk's name and the talker's @username, and only the red
+     button deletes. The words are this page's own; the function only sends a result code, the name and the
+     @username. -->
+<style>
+  .forgood-walk { font-weight: 700; font-size: 18px; }
+  .forgood-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+  .forgood-buttons[hidden] { display: none; }
+  main.page button.pill.cancel { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+</style>
+<h1 id="title">delete for good</h1>
+<p class="forgood-walk" id="walk" hidden></p>
+<p class="ask" id="said">checking the link&hellip;</p>
+<div class="forgood-buttons" id="buttons" hidden>
+  <button type="button" class="pill" id="delete">delete for good</button>
+  <button type="button" class="pill cancel" id="cancel">cancel</button>
+</div>
+<noscript><p class="quiet">this page needs javascript turned on to read the link.</p></noscript>
+<script>
+  (function () {
+    var FN = 'https://pencwliltbpwagjteugt.supabase.co/functions/v1/delete-for-good';
+    var t = new URLSearchParams(location.search).get('t') || '';
+    var title = document.getElementById('title');
+    var walk = document.getElementById('walk');
+    var said = document.getElementById('said');
+    var buttons = document.getElementById('buttons');
+    var del = document.getElementById('delete');
+    var cancel = document.getElementById('cancel');
+    var BROKEN = ['that link doesn’t work.', 'use the link in the newest email about it.'];
+    var WORDS = {
+      used: ['already used.', 'this link has been used - the walk is already deleted.'],
+      expired: ['this link has expired.', 'the link works for 30 days. report the walk again in the app to get a new one.'],
+      gone: ['already gone.', 'this walk was already deleted.'],
+      limited: ['too many tries.', 'try again in an hour.'],
+      invalid: BROKEN
+    };
+    function say(words) {
+      title.textContent = words[0];
+      said.textContent = words[1];
+    }
+    function name(a) {
+      return '“' + (a.title || 'a walk with no name') + '” by ' + (a.handle ? '@' + a.handle : 'someone');
+    }
+    function ask(step) {
+      return fetch(FN, { method: 'POST', body: new URLSearchParams({ t: t, step: step }) }).then(function (r) { return r.json(); });
+    }
+    if (!/^[0-9a-f]{64}$/.test(t)) { say(BROKEN); return; }
+
+    ask('look').then(function (a) {
+      if (a.result !== 'ok') { say(WORDS[a.result] || BROKEN); return; }
+      title.textContent = 'delete this walk for good?';
+      walk.textContent = name(a);
+      walk.hidden = false;
+      var answers = a.answers === 1 ? ', with the 1 answer to it' : a.answers > 1 ? ', with the ' + a.answers + ' answers to it' : '';
+      said.textContent = 'this deletes the walk and its recording for everyone' + answers + '. it can’t be undone. ' + (a.handle ? '@' + a.handle : 'the talker') + ' is told it was removed.';
+      buttons.hidden = false;
+    }, function () {
+      say(['couldn’t check the link.', 'check your internet and open the link again. nothing was deleted.']);
+    });
+
+    cancel.addEventListener('click', function () {
+      buttons.hidden = true;
+      say(['nothing deleted.', 'the walk is still there. you can close this page.']);
+    });
+    del.addEventListener('click', function () {
+      if (del.disabled) return;
+      del.disabled = true;
+      cancel.disabled = true;
+      del.textContent = 'deleting…';
+      var again = function (why) {
+        del.disabled = false;
+        cancel.disabled = false;
+        del.textContent = 'delete for good';
+        say(['not done.', why]);
+      };
+      ask('delete').then(function (a) {
+        if (a.result === 'deleted') {
+          buttons.hidden = true;
+          say(['deleted.', name(a) + ' is gone for everyone, with its recording and its answers. ' + (a.handle ? '@' + a.handle : 'the talker') + ' has been told it was removed.']);
+        } else if (a.result === 'error') {
+          again('that didn’t finish. the walk stays hidden from everyone but the talker - tap “delete for good” again.');
+        } else {
+          buttons.hidden = true;
+          say(WORDS[a.result] || BROKEN);
+        }
+      }, function () {
+        again('that didn’t go through - check your internet and tap “delete for good” again.');
+      });
+    });
+  })();
+</script>
