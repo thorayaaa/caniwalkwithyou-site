@@ -158,8 +158,8 @@ hello@caniwalkwithyou.com
 1. your name, postal address, phone number and email, and your signature (a typed name is fine);
 2. the work you own that you believe is being copied (or, if there are several, a list of them);
 3. where it is in the app - the walk's link or name, the talker's @handle, or the answer - so we can find it;
-4. a statement that you believe in good faith that the use isn't authorised by the owner, their agent or the law;
-5. a statement that the information in your complaint is accurate and, under penalty of perjury, that you own the work or are authorised to act for the owner.
+4. a statement that you believe in good faith that the use isn't authorized by the owner, their agent or the law;
+5. a statement that the information in your complaint is accurate and, under penalty of perjury, that you own the work or are authorized to act for the owner.
 
 **what we do.** after a valid complaint, we remove or disable the content and tell the person who posted it.
 
