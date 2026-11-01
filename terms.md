@@ -163,7 +163,7 @@ hello@caniwalkwithyou.com
 
 **what we do.** after a valid complaint, we remove or disable the content and tell the person who posted it.
 
-**counter-notice.** if your content was removed and you believe that was a mistake, send the address above your name and contact details, what was removed and where it was, a statement under penalty of perjury that you believe it was removed by mistake, your consent to the federal court for your area (or, outside the US, any court where we can be found), and your signature. we may put it back after 10 business days unless the person who complained tells us they've gone to court.
+**false complaints.** removed walks can't be restored. if you think a complaint against you was false, email hello@caniwalkwithyou.com and we won't count it toward closing your account.
 
 **repeat infringers.** we close the accounts of people who repeatedly post content that infringes copyright.
 
