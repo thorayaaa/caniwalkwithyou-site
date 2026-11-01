@@ -1,25 +1,25 @@
 ---
 layout: default
-title: delete for good
+title: a reported walk
 noindex: true
-description: delete a reported walk for good.
+description: hide, un-hide or delete a reported walk.
 ---
-<!-- Batch AY item 2: the report email's "delete it for good" link opens this page (through the delete-for-good
-     function, which only passes the token on). Opening it deletes nothing - an email scanner that opens links can't
-     delete anything. The page asks the function for the walk's name and the talker's @username, and only the red
-     button deletes. The words are this page's own; the function only sends a result code, the name and the
-     @username. -->
+<!-- Batch AY item 2 / Batch AZ item 2: the report email's "hide it now", "un-hide it" and "delete it for good" links
+     open this page (through the delete-for-good function, which only passes the token on). Opening it changes
+     nothing - an email scanner that opens links can't hide, show or delete anything. The page asks the function what
+     the link is for and the walk's name and the talker's @username; only the red button acts. The words are this
+     page's own; the function only sends a result code, the name and the @username. /review/delete/ is the same page. -->
 <style>
-  .forgood-walk { font-weight: 700; font-size: 18px; }
-  .forgood-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
-  .forgood-buttons[hidden] { display: none; }
+  .walklink-walk { font-weight: 700; font-size: 18px; }
+  .walklink-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+  .walklink-buttons[hidden] { display: none; }
   main.page button.pill.cancel { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
 </style>
-<h1 id="title">delete for good</h1>
-<p class="forgood-walk" id="walk" hidden></p>
+<h1 id="title">a reported walk</h1>
+<p class="walklink-walk" id="walk" hidden></p>
 <p class="ask" id="said">checking the link&hellip;</p>
-<div class="forgood-buttons" id="buttons" hidden>
-  <button type="button" class="pill" id="delete">delete for good</button>
+<div class="walklink-buttons" id="buttons" hidden>
+  <button type="button" class="pill" id="go">go</button>
   <button type="button" class="pill cancel" id="cancel">cancel</button>
 </div>
 <noscript><p class="quiet">this page needs javascript turned on to read the link.</p></noscript>
@@ -31,67 +31,92 @@ description: delete a reported walk for good.
     var walk = document.getElementById('walk');
     var said = document.getElementById('said');
     var buttons = document.getElementById('buttons');
-    var del = document.getElementById('delete');
+    var go = document.getElementById('go');
     var cancel = document.getElementById('cancel');
     var BROKEN = ['that link doesn’t work.', 'use the link in the newest email about it.'];
     var WORDS = {
-      used: ['already used.', 'this link has been used - the walk is already deleted.'],
-      expired: ['this link has expired.', 'the link works for 30 days. report the walk again in the app to get a new one.'],
-      gone: ['already gone.', 'this walk was already deleted.'],
+      used: ['already used.', 'this link has already been used. each link works once.'],
+      expired: ['this link has expired.', 'links work for 30 days. report the walk again in the app to get new ones.'],
+      gone: ['already gone.', 'this walk was deleted.'],
+      removed: ['deleted for good.', 'this walk was deleted for good and can’t be restored.'],
+      not_hidden: ['not hidden.', 'everyone can see this walk already. nothing to do.'],
       limited: ['too many tries.', 'try again in an hour.'],
       invalid: BROKEN
     };
-    function say(words) {
-      title.textContent = words[0];
-      said.textContent = words[1];
-    }
-    function name(a) {
-      return '“' + (a.title || 'a walk with no name') + '” by ' + (a.handle ? '@' + a.handle : 'someone');
-    }
+    var action = '';
+    var who = 'the talker';
+    function say(words) { title.textContent = words[0]; said.textContent = words[1]; }
+    function name(a) { return '“' + (a.title || 'a walk with no name') + '” by ' + (a.handle ? '@' + a.handle : 'someone'); }
+    function show(a) { if (a.title !== undefined) { walk.textContent = name(a); walk.hidden = false; } }
     function ask(step) {
       return fetch(FN, { method: 'POST', body: new URLSearchParams({ t: t, step: step }) }).then(function (r) { return r.json(); });
     }
     if (!/^[0-9a-f]{64}$/.test(t)) { say(BROKEN); return; }
 
     ask('look').then(function (a) {
+      if (a.handle) who = '@' + a.handle;
+      show(a);
+      if (a.result === 'already_hidden') { say(['already hidden.', 'it’s hidden from everyone but ' + who + '. nothing to do.']); return; }
       if (a.result !== 'ok') { say(WORDS[a.result] || BROKEN); return; }
-      title.textContent = 'delete this walk for good?';
-      walk.textContent = name(a);
-      walk.hidden = false;
-      var answers = a.answers === 1 ? ', with the 1 answer to it' : a.answers > 1 ? ', with the ' + a.answers + ' answers to it' : '';
-      said.textContent = 'this deletes the walk and its recording for everyone' + answers + '. it can’t be undone. ' + (a.handle ? '@' + a.handle : 'the talker') + ' is told it was removed.';
+      action = a.action || 'delete'; // the function before Batch AZ only had delete links
+      if (action === 'hide') {
+        title.textContent = 'hide this walk?';
+        said.textContent = 'this hides it from everyone but ' + who + ', with its answers, until you un-hide it. ' + who + ' isn’t told.';
+        go.textContent = 'hide it';
+      } else if (action === 'unhide') {
+        title.textContent = 'un-hide this walk?';
+        said.textContent = 'this shows it to everyone again, with its answers. only 2 new reports would hide it again. ' + who + ' isn’t told.';
+        go.textContent = 'un-hide it';
+      } else if (action === 'delete') {
+        var answers = a.answers === 1 ? ', with the 1 answer to it' : a.answers > 1 ? ', with the ' + a.answers + ' answers to it' : '';
+        title.textContent = 'delete this walk for good?';
+        said.textContent = 'this deletes the walk and its recording for everyone' + answers + '. it can’t be undone. ' + who + ' is told it was removed.';
+        go.textContent = 'delete for good';
+      } else { say(BROKEN); return; }
       buttons.hidden = false;
     }, function () {
-      say(['couldn’t check the link.', 'check your internet and open the link again. nothing was deleted.']);
+      say(['couldn’t check the link.', 'check your internet and open the link again. nothing was changed.']);
     });
 
     cancel.addEventListener('click', function () {
       buttons.hidden = true;
-      say(['nothing deleted.', 'the walk is still there. you can close this page.']);
+      say(['nothing changed.', 'you can close this page.']);
     });
-    del.addEventListener('click', function () {
-      if (del.disabled) return;
-      del.disabled = true;
+    go.addEventListener('click', function () {
+      if (go.disabled) return;
+      var label = go.textContent;
+      go.disabled = true;
       cancel.disabled = true;
-      del.textContent = 'deleting…';
+      go.textContent = action === 'hide' ? 'hiding…' : action === 'unhide' ? 'un-hiding…' : 'deleting…';
       var again = function (why) {
-        del.disabled = false;
+        go.disabled = false;
         cancel.disabled = false;
-        del.textContent = 'delete for good';
+        go.textContent = label;
         say(['not done.', why]);
       };
-      ask('delete').then(function (a) {
+      ask(action === 'delete' ? 'delete' : 'go').then(function (a) {
         if (a.result === 'deleted') {
           buttons.hidden = true;
-          say(['deleted.', name(a) + ' is gone for everyone, with its recording and its answers. ' + (a.handle ? '@' + a.handle : 'the talker') + ' has been told it was removed.']);
+          say(['deleted.', name(a) + ' is gone for everyone, with its recording and its answers. ' + who + ' has been told it was removed.']);
+        } else if (a.result === 'hidden') {
+          buttons.hidden = true;
+          say(['hidden.', 'it’s hidden from everyone but ' + who + '. to show it again, use “un-hide it” in the same email.']);
+        } else if (a.result === 'shown') {
+          buttons.hidden = true;
+          say(['back for everyone.', 'everyone can hear it again. only 2 new reports would hide it again.']);
+        } else if (a.result === 'already_hidden') {
+          buttons.hidden = true;
+          say(['already hidden.', 'it’s hidden from everyone but ' + who + '. nothing to do.']);
         } else if (a.result === 'error') {
-          again('that didn’t finish. the walk stays hidden from everyone but the talker - tap “delete for good” again.');
+          again(action === 'delete'
+            ? 'that didn’t finish. the walk stays hidden from everyone but the talker - tap “delete for good” again.'
+            : 'that didn’t go through. tap the button again.');
         } else {
           buttons.hidden = true;
           say(WORDS[a.result] || BROKEN);
         }
       }, function () {
-        again('that didn’t go through - check your internet and tap “delete for good” again.');
+        again('that didn’t go through - check your internet and tap the button again.');
       });
     });
   })();
