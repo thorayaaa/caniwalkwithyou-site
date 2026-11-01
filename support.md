@@ -76,10 +76,14 @@ not on the app, and a walk has your voice in it without your agreement, uses you
   #takedown-form .choice { display: flex; align-items: center; gap: 10px; min-height: 44px; font-weight: 400; margin: 0; }
   #takedown-form .choice input { width: 20px; height: 20px; accent-color: var(--red); }
   #takedown-form .trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
-  #takedown-result { font-weight: 700; }
+  #takedown-form button.pill { margin-top: 20px; }
+  #takedown-result { margin: 16px 0; padding: 18px; border: 2px solid var(--ink); border-radius: 14px; background: var(--card); font-size: 18px; font-weight: 700; line-height: 1.5; scroll-margin: 24px; outline: none; }
+  #takedown-result.failed { border-color: var(--red); }
+  #takedown-result[hidden] { display: none; }
+  #td-frame { display: none; }
 </style>
 
-<p id="takedown-result" role="status" hidden></p>
+<div id="takedown-result" role="status" aria-live="polite" tabindex="-1" hidden></div>
 <form id="takedown-form" method="post" action="https://pencwliltbpwagjteugt.supabase.co/functions/v1/takedown-request">
   <label for="td-email">your email</label>
   <input id="td-email" name="email" type="email" autocomplete="email" maxlength="254" required>
@@ -97,15 +101,83 @@ not on the app, and a walk has your voice in it without your agreement, uses you
   <input type="hidden" name="t" id="td-t">
   <button type="submit" class="pill" id="td-send">send</button>
 </form>
+<iframe id="td-frame" name="td-frame" title="takedown request" tabindex="-1" aria-hidden="true"></iframe>
 <noscript><p class="quiet">this form needs javascript turned on. you can also write to <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p></noscript>
 <p class="quiet">for copyright, include the details in our <a href="/terms/#copyright">terms</a> (what you own, where it is, and the two statements). we only use your email to answer you.</p>
 <script>
   (function () {
+    // Inside the hidden frame (the page the form's answer lands on): do nothing - the page around it shows the result.
+    if (window.top !== window.self) return;
+    var form = document.getElementById('takedown-form');
+    var box = document.getElementById('takedown-result');
+    var send = document.getElementById('td-send');
+    var frame = document.getElementById('td-frame');
+    var email = '{{ site.contact_email }}';
+    var SENT = "thanks \u2014 we got your request. we'll email you if we need anything else.";
+    var FAILED = {
+      offline: "that didn't send - you're not connected to the internet. please try again, or email ",
+      limited: "that didn't send - too many tries just now. please try again later, or email ",
+      check: "that didn't send - please add your email, the walk, and what's wrong, then try again. or email ",
+      error: "that didn't send. please try again, or email "
+    };
+    var sending = false;
+    var timer = null;
     document.getElementById('td-t').value = String(Date.now());
-    var said = { sent: "sent - thank you. we'll look at it and reply by email.", check: 'please add your email, the walk, and what\'s wrong.', limited: 'too many requests just now - try again later, or write to us.', error: "that didn't send. please try again, or write to us." };
-    var r = new URLSearchParams(location.search).get('takedown');
-    if (r && said[r]) { var p = document.getElementById('takedown-result'); p.textContent = said[r]; p.hidden = false; }
-    document.getElementById('takedown-form').addEventListener('submit', function () { document.getElementById('td-send').disabled = true; });
+    // The answer comes back into the hidden frame, so the page (and what they typed) stays.
+    form.target = 'td-frame';
+
+    function reveal() {
+      box.hidden = false;
+      box.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      try { box.focus({ preventScroll: true }); } catch (e) { box.focus(); }
+    }
+    function ready() {
+      sending = false;
+      clearTimeout(timer);
+      send.disabled = false;
+      send.textContent = 'send';
+    }
+    function sent() {
+      ready();
+      form.hidden = true;
+      box.className = '';
+      box.textContent = SENT;
+      reveal();
+    }
+    function failed(why) {
+      ready();
+      box.className = 'failed';
+      box.textContent = FAILED[why] || FAILED.error;
+      var a = document.createElement('a');
+      a.href = 'mailto:' + email;
+      a.textContent = email;
+      box.appendChild(a);
+      box.appendChild(document.createTextNode('.'));
+      reveal();
+    }
+
+    form.addEventListener('submit', function (event) {
+      if (sending) { event.preventDefault(); return; }
+      if (navigator.onLine === false) { event.preventDefault(); failed('offline'); return; }
+      sending = true;
+      box.hidden = true;
+      send.disabled = true;
+      send.textContent = 'sending\u2026';
+      // No answer in 30 seconds: say it didn't send (what they typed is still here).
+      timer = setTimeout(function () { if (sending) failed('error'); }, 30000);
+    });
+    frame.addEventListener('load', function () {
+      if (!sending) return;
+      var result = null;
+      try { result = new URLSearchParams(frame.contentWindow.location.search).get('takedown'); } catch (e) { result = null; }
+      if (result === 'sent') sent();
+      else failed(result === 'limited' || result === 'check' ? result : (navigator.onLine === false ? 'offline' : 'error'));
+    });
+
+    // Opened from an older link that already says what happened.
+    var earlier = new URLSearchParams(location.search).get('takedown');
+    if (earlier === 'sent') sent();
+    else if (earlier && FAILED[earlier]) failed(earlier);
   })();
 </script>
 
