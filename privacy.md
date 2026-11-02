@@ -14,7 +14,7 @@ description: what can i walk with you? collects, why, who can see it, and how to
 
 - can i walk with you? records voices. talkers record their walks. a listener's microphone is on only during their turn to answer, and they're told first.
 - you choose who hears what you recorded: just you, the talker, or everyone - under your name or anonymously, in your own voice or a changed one.
-- before anything is shared, your phone turns it into text, and an AI service (Anthropic) checks only that text - never the recording. if a recording is reported, a speech-to-text service (Deepgram) turns it into text for that check. neither uses it to train AI.
+- before anything is shared, your phone turns it into text, and an AI service (Anthropic) checks only that text - never the recording. if your phone can't turn it into text, or a recording is reported, a speech-to-text service (Deepgram) turns it into text for that check. neither uses it to train AI.
 - we never identify anyone by their voice. no voiceprints.
 - we don't sell your data, show ads, or track you across other apps and websites.
 - you can delete a walk, an answer, or your whole account at any time in the app, and it's deleted from the app right away.
@@ -57,9 +57,9 @@ this policy covers the app and this website.
 when you post a walk for everyone, or send or share an answer, it's checked before anyone else can hear it.
 
 - **we ask you first.** the first time, the app explains the check and asks "ok" or "not now". **nothing is sent to an AI service unless you say ok.** "not now" keeps that walk or answer just for you. you can change your answer in settings › the AI check. we keep your answer and when you gave it.
-- **your phone turns the recording into text** with a time for each word, using Apple's speech recognition **on your phone** - the recording isn't sent anywhere for this. iOS asks you once to allow speech recognition. if your phone can't make the text, or you've turned speech recognition off, nothing goes to the AI: a person on our team listens to the recording instead, before anyone else can hear it.
+- **your phone turns the recording into text** with a time for each word, using Apple's speech recognition **on your phone** - the recording isn't sent anywhere for this. iOS asks you once to allow speech recognition. if your phone can't make the text, or you've turned speech recognition off, a speech-to-text company, Deepgram, turns the recording into text on our server instead (see the next point), and the AI checks that text before anyone else can hear it.
 - **what Anthropic gets:** the text with its word times, and the walk's name, description, spot names and topics (for an answer: your note). **not** your recording, name, handle, email, account id or city. Anthropic (Claude) checks it against our community guidelines. under its commercial terms it **doesn't use it to train its models**, and deletes it within 30 days - except that it can keep content its own safety systems flag as breaking its usage policy for up to 2 years.
-- **if someone reports a walk or an answer,** a speech-to-text company, Deepgram, turns its recording into text so the AI check can read what was really said. this happens only for reported recordings, and only if the person who made it said ok to the AI check (if they didn't, a person on our team listens instead). Deepgram gets a link to the recording that stops working after 10 minutes, and nothing else (not your name, handle, email or account id). every request tells Deepgram not to keep the recording or use it to improve its models, so it keeps it only while turning it into text.
+- **if your phone can't make the text, or someone reports a walk or an answer,** a speech-to-text company, Deepgram, turns its recording into text so the AI check can read what was really said. this happens only in those two cases, and only if the person who made it said ok to the AI check (if they didn't, nothing is sent to Deepgram; for a reported recording, a person on our team may listen instead). Deepgram gets a link to the recording that stops working after 10 minutes, and nothing else (not your name, handle, email or account id). every request tells Deepgram not to keep the recording or use it to improve its models, so it keeps it only while turning it into text.
 - **what we keep:** the result (clear, not allowed or held), the moments and short quotes it flagged and which rule, and any topics it found (below). and **the text version**, kept privately on our server so a person on our team can review them if needed. it's never shown to other people. **it's deleted as soon as its walk or answer is deleted.**
 - **people on our team** see held and reported items, their text, the flagged quotes and the poster's handle, and can listen to the recording. we're told about them by email, with the walk's name, the flagged quotes and private links to the recording (and, for a report, its photos) that stop working after 7 days. those emails stay in our own inbox.
 - **we never identify anyone by their voice.** we don't make voiceprints or use voices to recognise people.
@@ -127,7 +127,7 @@ each service gets only what it needs to do its job for us, and works for us unde
 
 - **Supabase** stores the app's data, recordings, photos and videos, handles sign-in, and runs the server code that does the check and sends emails and notifications. our data is kept in the United States (US West).
 - **Anthropic** (Claude) checks the text of walks and answers before they're shared (see "the AI check").
-- **Deepgram** turns a walk's or an answer's recording into text, only when someone reports it (see "the AI check").
+- **Deepgram** turns a walk's or an answer's recording into text, only when the phone can't make the text itself or someone reports it (see "the AI check").
 - **Resend** sends the app's emails (sign-up codes, password resets and email changes, and reports and held items to us).
 - **Apple:** Sign in with Apple, notifications, speech recognition on your phone (the app doesn't send recordings to Apple for it), turning a location into a city name, step counting on your phone, maps, and the lock-screen card while you walk.
 - **OpenStreetMap** for place search in the first version's route features, and **Cloudflare** for the "not a bot" check at sign-up when it's on.
@@ -190,7 +190,7 @@ when you delete a walk or an answer, it's deleted from the app right away.
 - **text versions (for the check), and check results:** deleted as soon as the walk or answer is deleted.
 - **daily database backups:** up to 7 days (database rows only, never recordings, photos or videos).
 - **the text, at Anthropic:** up to 30 days (up to 2 years only if Anthropic's own safety systems flag it as breaking its usage policy).
-- **a reported recording, at Deepgram:** only while it's being turned into text.
+- **a recording at Deepgram** (when the phone can't make the text, or it's reported): only while it's being turned into text.
 - **spots and passes of the mic saved while you record:** 2 days after they're saved.
 - **your age answer, agreements, settings:** until you delete your account.
 - **the email link to a held recording:** stops working after 7 days.
