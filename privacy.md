@@ -135,6 +135,8 @@ each service gets only what it needs to do its job for us, and works for us unde
 
 we don't use any advertising, analytics or crash-reporting companies.
 
+if the app or Hey Stranger LLC is ever sold or merged, your information may transfer to the new owner, who must keep following this privacy policy. we'll tell you before that happens.
+
 ## what we don't do
 
 - we don't sell your personal information, or share it for advertising.
