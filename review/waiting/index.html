@@ -1,0 +1,42 @@
+---
+layout: default
+title: waiting for the safety check
+noindex: true
+description: walks and answers waiting for their owner to turn on the safety check.
+---
+<meta name="referrer" content="no-referrer">
+<!-- Batch BC item 2: Thoraya's private list (a link from one line in the SQL Editor - EMAILS-INBOX.md section 7) of
+     walks and answers that wait, just for their owner, because they haven't turned on the safety check. Nothing of
+     what they said was ever sent anywhere, so there is nothing more to show. Nothing waits on her. -->
+<style>
+  .waiting-list { padding-left: 20px; }
+  .waiting-list li { margin: 8px 0; }
+</style>
+<h1 id="title">waiting for the safety check</h1>
+<p class="ask" id="said">checking the link&hellip;</p>
+<ul class="waiting-list" id="list"></ul>
+<noscript><p class="quiet">this page needs javascript turned on to read the link.</p></noscript>
+<script>
+  (function () {
+    var FN = 'https://pencwliltbpwagjteugt.supabase.co/functions/v1/delete-for-good';
+    var t = new URLSearchParams(location.search).get('t') || '';
+    var said = document.getElementById('said');
+    var list = document.getElementById('list');
+    if (!/^[0-9a-f]{64}$/.test(t)) { said.textContent = 'that link doesn’t work. make a new one (EMAILS-INBOX.md section 7).'; return; }
+    fetch(FN, { method: 'POST', cache: 'no-store', credentials: 'omit', referrerPolicy: 'no-referrer', body: new URLSearchParams({ t: t, step: 'waiting' }) })
+      .then(function (r) { return r.json(); })
+      .then(function (a) {
+        if (a.result !== 'ok') { said.textContent = 'that link doesn’t work any more. make a new one (EMAILS-INBOX.md section 7).'; return; }
+        var items = a.items || [];
+        said.textContent = items.length
+          ? 'these wait just for the person who made them, until they turn on the safety check. nothing of what they said was sent anywhere, so there’s nothing more to show. nothing here needs you.'
+          : 'nothing is waiting.';
+        items.forEach(function (i) {
+          var li = document.createElement('li');
+          var since = i.since ? new Date(i.since).toISOString().slice(0, 10) : '';
+          li.textContent = (i.what === 'answer' ? 'an answer to “' : '“') + (i.title || 'a walk') + '” · @' + (i.handle || 'someone') + (since ? ' · waiting since ' + since : '');
+          list.appendChild(li);
+        });
+      }, function () { said.textContent = 'couldn’t load the list. check your internet and open the link again.'; });
+  })();
+</script>
