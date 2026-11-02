@@ -60,7 +60,7 @@ when you post a walk for everyone, or send or share an answer, it's checked befo
 - **your phone turns the recording into text** with a time for each word, using Apple's speech recognition **on your phone** - the recording isn't sent anywhere for this. iOS asks you once to allow speech recognition. if your phone can't make the text, or you've turned speech recognition off, nothing goes to the AI: a person on our team listens to the recording instead, before anyone else can hear it.
 - **what Anthropic gets:** the text with its word times, and the walk's name, description, spot names and topics (for an answer: your note). **not** your recording, name, handle, email, account id or city. Anthropic (Claude) checks it against our community guidelines. under its commercial terms it **doesn't use it to train its models**, and deletes it within 30 days - except that it can keep content its own safety systems flag as breaking its usage policy for up to 2 years.
 - **if someone reports a walk or an answer,** a speech-to-text company, Deepgram, turns its recording into text so the AI check can read what was really said. this happens only for reported recordings, and only if the person who made it said ok to the AI check (if they didn't, a person on our team listens instead). Deepgram gets a link to the recording that stops working after 10 minutes, and nothing else (not your name, handle, email or account id). every request tells Deepgram not to keep the recording or use it to improve its models, so it keeps it only while turning it into text.
-- **what we keep:** the result (clear, not allowed or held), the moments and short quotes it flagged and which rule, and any topics it found (below). and **the text version**, kept privately on our server so a person on our team can review held walks, answers and reports. it's never shown to other people. **it's deleted as soon as its walk or answer is deleted.**
+- **what we keep:** the result (clear, not allowed or held), the moments and short quotes it flagged and which rule, and any topics it found (below). and **the text version**, kept privately on our server so a person on our team can review them if needed. it's never shown to other people. **it's deleted as soon as its walk or answer is deleted.**
 - **people on our team** see held and reported items, their text, the flagged quotes and the poster's handle, and can listen to the recording. we're told about them by email, with the walk's name, the flagged quotes and private links to the recording (and, for a report, its photos) that stop working after 7 days. those emails stay in our own inbox.
 - **we never identify anyone by their voice.** we don't make voiceprints or use voices to recognise people.
 
@@ -69,7 +69,7 @@ when you post a walk for everyone, or send or share an answer, it's checked befo
 people talk about hard things on their walks - grief, illness, abuse, addiction, self-harm. we treat what you say about these as **sensitive personal information**, and use it only to run and protect the app:
 
 - you can add topics and a "sensitive topics" heads-up to your walk, and the AI check can add them too (only we can take one the check added off). **the heads-up and topics are shown with your walk to the people who can see it**, so listeners know what's coming. anyone can choose to hide walks with sensitive topics.
-- graphic details - like how someone hurt themselves, or anything that makes self-harm sound appealing - are held: you can cut that part, keep it for yourself, or ask a person on our team to look.
+- graphic details - like how someone hurt themselves, or anything that makes self-harm sound appealing - are held: you can cut that part, keep it for yourself, or ask for a person to look. we can't promise when.
 - the AI check also notes if something sounds like **someone is in danger right now**. then the app privately shows them where they can talk to someone (call or text 988 in the US) and keeps their walk or answer just for them: it's never sent or shared, and nobody is told - not us, not anyone. (the one exception: if the same check also finds something sexual involving a child, it's removed and we're emailed.) this note is kept with the check, and only that person can see it in the app. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
 
 ### your location
@@ -96,7 +96,7 @@ if you turn notifications on, we keep your iPhone's notification token and your 
 
 ### reports and blocks
 
-if you report a walk, an answer or a person, we keep what you reported, the reason, any details you add, the walk's name, and who reported it, so it can be reviewed. it's emailed to us. the person you reported is never told who reported them. we keep who you've blocked so the block works.
+if you report a walk, an answer or a person, we keep what you reported, the reason, any details you add, the walk's name, and who reported it, so it can be dealt with. it's emailed to us. the person you reported is never told who reported them. we keep who you've blocked so the block works.
 
 ### keeping the app safe
 

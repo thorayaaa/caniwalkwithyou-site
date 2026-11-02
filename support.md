@@ -28,7 +28,7 @@ talk-walks are about walking. if a walk (or your walk with someone) barely moved
 a walk's page shows how many people walked it. only answers shared publicly are listed, with your name, or "anonymous" if you went anonymous. answers kept for yourself or sent only to the talker are counted but never named.
 
 ### why does it say "checking your walk"?
-everything shared with others is turned into text and checked against our community rules before anyone else hears it. it usually takes a minute. if part of it can't be shared, the app shows you the moment and why, and lets you cut that part, keep it just for you, or ask a person on our team to look.
+everything shared with others is turned into text and checked against our community rules before anyone else hears it. it usually takes a minute. if part of it can't be shared, the app shows you the moment and why, and lets you cut that part, keep it just for you, or ask for a person to look. we can't promise when.
 
 ### I forgot my password
 on the sign-in screen, tap "forgot password?" and enter your email or handle. we'll email you a code to set a new one. accounts made with Sign in with Apple don't have a password - just sign in with Apple again.
@@ -55,7 +55,7 @@ check they're on in the app (your profile → ⋯ → settings → notifications
 tick the box under it first: "i agree to the terms and privacy policy, and i'm 18 or older." Sign in with Apple waits for the same box. can i walk with you? is only for people 18 and over.
 
 ### how do I report or block someone?
-tap "⋯" on a walk, an answer or a profile, then "report" - pick a reason and add details if you like - or "block". reports come straight to us. we review reports and remove anything that breaks our rules. the person is never told who reported them.
+tap "⋯" on a walk, an answer or a profile, then "report" - pick a reason and add details if you like - or "block". reports come straight to us. we may review reports, and we remove what we find breaks our rules. the person is never told who reported them.
 
 ### how do I stop the walk club emails?
 tap "unsubscribe" at the bottom of any of them - one tap and you're off the list.
@@ -67,7 +67,7 @@ a walk: open it, "⋯" → delete. your account: your profile → ⋯ → settin
 
 ## a takedown request
 
-not on the app, and a walk has your voice in it without your agreement, uses your work, or something else is wrong? tell us here. it comes straight to the same inbox as reports in the app, and we'll reply by email.
+not on the app, and a walk has your voice in it without your agreement, uses your work, or something else is wrong? tell us here. it comes straight to the same inbox as reports in the app, and we may reply by email.
 
 <style>
   #takedown-form label { display: block; margin: 16px 0 6px; font-weight: 700; }

@@ -16,7 +16,7 @@ description: the rules for using can i walk with you?, in plain words.
 - you must be 18 or older.
 - talkers are recorded (voice and path). a listener's microphone is on only during their turn to answer, and they're told before they start.
 - you decide who hears what you said: just you, the talker, or everyone - under your name or anonymously.
-- your words are turned into text on your phone and checked by an AI, and sometimes by a person, before anyone else hears them. if a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and before anything is posted you can ask a person to look.
+- your words are turned into text on your phone and checked automatically by an AI before anyone else hears them. if a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and before anything is posted you can ask for a person to look. we can't promise when.
 - what you make stays yours. you let us run it in the app. "share in other media" is a separate switch, off unless you turn it on.
 - nobody has to do anything a talker says. stay aware of where you are. walking has risks, and you accept them.
 - the app isn't therapy. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
@@ -92,11 +92,11 @@ also don't:
 
 - **clear:** it goes live, and we tell you.
 - **not allowed:** it isn't posted. you're told which rule and where, and you can re-record, keep it just for yourself, or delete it.
-- **held:** parts with graphic details are held for you to decide - cut that part, keep it just for yourself, or ask a person on our team to look. if the check is unsure, it's held until a person on our team looks, and we tell you what we decide.
+- **held:** parts with graphic details are held for you to decide - cut that part, keep it just for yourself, or ask for a person to look. we can't promise when. if the check is unsure, it stays just for you.
 - **sensitive topics:** the check can add a heads-up for sensitive topics to a walk. only we can take it off.
 - **if it sounds like someone is in danger right now**, it's never treated as breaking a rule: the app shows them, privately, where they can talk to someone right now (988 in the US), and keeps their walk or answer just for them. nobody is told - not us, not anyone. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
 
-**the AI can make mistakes**, in either direction. if you think it got something wrong before your walk or answer is posted, you can ask for a person to review it at hello@caniwalkwithyou.com. removed walks can't be restored. passing the check doesn't mean we've approved what anyone says, and it doesn't replace reports (section 16).
+**the AI can make mistakes**, in either direction. if you think it got something wrong before your walk or answer is posted, you can ask for a person to review it at hello@caniwalkwithyou.com. we can't promise to answer every request. removed walks can't be restored. passing the check doesn't mean we've approved what anyone says, and it doesn't replace reports (section 16).
 
 ## 10. recording other people
 
@@ -137,7 +137,7 @@ an answer you send to a talker is private: only that talker can hear it in the a
 
 - **report** a walk, an answer or a person: tap "⋯" and pick the guideline it breaks. reports come straight to us, and the person you report is never told who reported them.
 - **block** someone: they can't hear your walks or send you answers, and you won't see theirs. they aren't told.
-- **we review reports and remove anything that breaks our rules.** once more than one person reports the same walk or answer, it's hidden from everyone but the person who posted it. we may hide a reported walk or answer, restore it (show it to everyone again), or delete it - a deleted walk can't be restored.
+- **we may review reports, and we remove what we find breaks our rules.** on its own, once more than one person reports the same walk or answer, it's hidden from everyone but the person who posted it. we may hide a reported walk or answer, restore it (show it to everyone again), or delete it - a deleted walk can't be restored.
 - **we can hold, label, limit or remove any content, and suspend or remove any account**, with or without warning, when we believe it breaks these terms or the community guidelines, or to protect people. we don't have to monitor everything, and we can't promise to catch everything. we don't do background checks on the people who use the app.
 
 <a id="copyright"></a>
