@@ -7,7 +7,7 @@ description: the rules for using can i walk with you?, in plain words.
 
 # terms
 
-<p class="updated">last updated October 31, 2026</p>
+<p class="updated">last updated November 1, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -16,7 +16,7 @@ description: the rules for using can i walk with you?, in plain words.
 - you must be 18 or older.
 - talkers are recorded (voice and path). a listener's microphone is on only during their turn to answer, and they're told before they start.
 - you decide who hears what you said: just you, the talker, or everyone - under your name or anonymously.
-- your words are turned into text on your phone and checked automatically by an AI before anyone else hears them. if your phone can't make the text, or a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and before anything is posted you can ask for a person to look. we can't promise when.
+- if you say ok, your words are turned into text on your phone and checked automatically by an AI before anyone else hears them. if you say no, what you post stays just for you until you turn the check on. if your phone can't make the text, or a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and before anything is posted you can ask for a person to look. we can't promise when.
 - what you make stays yours. you let us run it in the app. "share in other media" is a separate switch, off unless you turn it on.
 - nobody has to do anything a talker says. stay aware of where you are. walking has risks, and you accept them.
 - the app isn't therapy. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
@@ -88,7 +88,7 @@ also don't:
 
 ## 9. the AI check
 
-**before anyone else hears a walk you post or an answer you send or share, it's checked** - only after you've said ok to the AI check (otherwise it stays just for you). your phone turns the recording into text (on the phone - the recording itself isn't sent anywhere for this). that text, and the walk's name, description, spot names, topics and notes, is sent to a third-party AI service (Anthropic's Claude), which checks it against the community guidelines. if your phone can't make the text, its recording is sent to a speech-to-text service (Deepgram) to be turned into text on our server, and that text is checked. **if a walk or an answer is reported**, its recording is sent to Deepgram to be turned into text, and checked again. a person on our team may also look.
+**before anyone else hears a walk you post or an answer you send or share, it's checked** - only after you've said ok to the safety check. if you say no, it's saved just for you, and nobody else hears it until you turn the check on (then it's checked, and posted if it passes). your phone turns the recording into text (on the phone - the recording itself isn't sent anywhere for this). that text, and the walk's name, description, spot names, topics and notes, is sent to a third-party AI service (Anthropic's Claude), which checks it against the community guidelines. if your phone can't make the text, its recording is sent to a speech-to-text service (Deepgram) to be turned into text on our server, and that text is checked. **if a walk or an answer is reported**, its recording is sent to Deepgram to be turned into text, and checked again.
 
 - **clear:** it goes live, and we tell you.
 - **not allowed:** it isn't posted. you're told which rule and where, and you can re-record, keep it just for yourself, or delete it.
