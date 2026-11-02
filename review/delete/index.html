@@ -4,6 +4,7 @@ title: a reported walk
 noindex: true
 description: hide, un-hide or delete a reported walk.
 ---
+<meta name="referrer" content="no-referrer">
 <!-- Batch AY item 2 / Batch AZ item 2: the report email's "hide it now", "un-hide it" and "delete it for good" links
      open this page (through the delete-for-good function, which only passes the token on). Opening it changes
      nothing - an email scanner that opens links can't hide, show or delete anything. The page asks the function what
@@ -14,10 +15,27 @@ description: hide, un-hide or delete a reported walk.
   .walklink-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
   .walklink-buttons[hidden] { display: none; }
   main.page button.pill.cancel { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+  .walklink-details h2 { font-size: 18px; margin: 28px 0 8px; }
+  .walklink-details ul { padding-left: 20px; margin: 0; }
+  .walklink-details li { margin: 6px 0; }
+  .walklink-said { white-space: pre-wrap; line-height: 1.7; }
+  .walklink-said .flag { color: var(--red); font-weight: 700; text-decoration: underline; }
+  .walklink-said .rule { color: var(--red); font-size: 14px; }
+  .walklink-details[hidden] { display: none; }
 </style>
 <h1 id="title">a reported walk</h1>
 <p class="walklink-walk" id="walk" hidden></p>
 <p class="ask" id="said">checking the link&hellip;</p>
+<!-- BB item 3: before any button - every report, what the check thought, and what was said (flagged parts marked). -->
+<div class="walklink-details" id="details" hidden>
+  <h2>reports</h2>
+  <ul id="reports"></ul>
+  <h2>what the check thought</h2>
+  <p id="check"></p>
+  <ul id="flagged"></ul>
+  <h2>what was said</h2>
+  <p class="walklink-said" id="said-text"></p>
+</div>
 <div class="walklink-buttons" id="buttons" hidden>
   <button type="button" class="pill" id="go">go</button>
   <button type="button" class="pill cancel" id="cancel">cancel</button>
@@ -37,40 +55,71 @@ description: hide, un-hide or delete a reported walk.
     var WORDS = {
       used: ['already used.', 'this link has already been used. each link works once.'],
       expired: ['this link has expired.', 'links work for 30 days. report the walk again in the app to get new ones.'],
-      gone: ['already gone.', 'this walk was deleted.'],
-      removed: ['deleted for good.', 'this walk was deleted for good and can’t be restored.'],
+      gone: ['already gone.', 'it was already deleted.'],
+      removed: ['deleted for good.', 'it was deleted for good and can’t be restored.'],
       not_hidden: ['not hidden.', 'everyone can see this walk already. nothing to do.'],
       limited: ['too many tries.', 'try again in an hour.'],
       invalid: BROKEN
     };
     var action = '';
+    var thing = 'walk';
     var who = 'the talker';
     function say(words) { title.textContent = words[0]; said.textContent = words[1]; }
-    function name(a) { return '“' + (a.title || 'a walk with no name') + '” by ' + (a.handle ? '@' + a.handle : 'someone'); }
+    function name(a) {
+      var by = a.handle ? '@' + a.handle : 'someone';
+      return thing === 'answer' ? by + '’s answer to “' + (a.title || 'a walk') + '”' : '“' + (a.title || 'a walk with no name') + '” by ' + by;
+    }
     function show(a) { if (a.title !== undefined) { walk.textContent = name(a); walk.hidden = false; } }
     function ask(step) {
-      return fetch(FN, { method: 'POST', body: new URLSearchParams({ t: t, step: step }) }).then(function (r) { return r.json(); });
+      // Nothing about this page is kept by the browser.
+      return fetch(FN, { method: 'POST', cache: 'no-store', credentials: 'omit', referrerPolicy: 'no-referrer', body: new URLSearchParams({ t: t, step: step }) }).then(function (r) { return r.json(); });
+    }
+    var STATUS = { clear: 'clear - nothing broke the rules.', approved: 'clear - nothing broke the rules.', held: 'held', blocked: 'not allowed.', rejected: 'not allowed.', checking: 'still being checked.', failed: 'not checked yet.' };
+    var REASONS = { violence: 'graphic violence', self_harm: 'details of self-harm', harm_appealing: 'makes harm sound appealing', sexual: 'sexual detail', cruelty: 'cruelty', private_people: 'exposing private people', threats_hate: 'threats or hate' };
+    function el(tag, text, cls) { var e = document.createElement(tag); e.textContent = text; if (cls) e.className = cls; return e; }
+    function when(at) { var d = new Date(at); return isNaN(d.getTime()) ? '' : d.toISOString().slice(0, 16).replace('T', ' ') + ' UTC'; }
+    function details(d) {
+      if (!d || d.private) return;
+      var box = document.getElementById('details');
+      var reports = document.getElementById('reports');
+      (d.reports || []).forEach(function (r) { reports.appendChild(el('li', r.reason + (r.at ? ' · ' + when(r.at) : '') + (r.note ? ' - \u201c' + r.note + '\u201d' : ''))); });
+      if (!(d.reports || []).length) reports.appendChild(el('li', 'none in the app (a takedown request comes by email).'));
+      var c = d.check;
+      document.getElementById('check').textContent = !c ? 'it hasn\u2019t been checked.' : (STATUS[c.status] || c.status) + (c.status === 'held' && c.heldReason ? ' - ' + (REASONS[c.heldReason] || c.heldReason) + '.' : c.status === 'held' ? '.' : '');
+      var flagged = document.getElementById('flagged');
+      ((c && c.flagged) || []).forEach(function (f) { flagged.appendChild(el('li', f.at + ' · \u201c' + f.quote + '\u201d · ' + f.rule)); });
+      ((c && c.textIssues) || []).forEach(function (f) { flagged.appendChild(el('li', f.field + ': \u201c' + f.quote + '\u201d · ' + f.rule)); });
+      var said = document.getElementById('said-text');
+      if (d.writing) said.textContent = 'still being written out, refresh in a minute.';
+      else if (!d.text) said.textContent = 'there\u2019s no written version.';
+      else d.text.forEach(function (part) {
+        if (part.flag) { said.appendChild(el('span', part.text, 'flag')); said.appendChild(el('span', ' [' + part.flag + ']', 'rule')); }
+        else said.appendChild(document.createTextNode(part.text));
+      });
+      box.hidden = false;
     }
     if (!/^[0-9a-f]{64}$/.test(t)) { say(BROKEN); return; }
 
     ask('look').then(function (a) {
       if (a.handle) who = '@' + a.handle;
+      if (a.what === 'answer') thing = 'answer';
       show(a);
+      details(a.details);
       if (a.result === 'already_hidden') { say(['already hidden.', 'it’s hidden from everyone but ' + who + '. nothing to do.']); return; }
       if (a.result !== 'ok') { say(WORDS[a.result] || BROKEN); return; }
       action = a.action || 'delete'; // the function before Batch AZ only had delete links
       if (action === 'hide') {
-        title.textContent = 'hide this walk?';
-        said.textContent = 'this hides it from everyone but ' + who + ', with its answers, until you un-hide it. ' + who + ' isn’t told.';
+        title.textContent = 'hide this ' + thing + '?';
+        said.textContent = 'this hides it from everyone but ' + who + (thing === 'walk' ? ', with its answers,' : '') + ' until you un-hide it. ' + who + ' isn’t told.';
         go.textContent = 'hide it';
       } else if (action === 'unhide') {
-        title.textContent = 'un-hide this walk?';
-        said.textContent = 'this shows it to everyone again, with its answers. only 2 new reports would hide it again. ' + who + ' isn’t told.';
+        title.textContent = 'un-hide this ' + thing + '?';
+        said.textContent = 'this shows it to everyone again' + (thing === 'walk' ? ', with its answers' : '') + '. only 2 new reports would hide it again. ' + who + ' isn’t told.';
         go.textContent = 'un-hide it';
       } else if (action === 'delete') {
         var answers = a.answers === 1 ? ', with the 1 answer to it' : a.answers > 1 ? ', with the ' + a.answers + ' answers to it' : '';
-        title.textContent = 'delete this walk for good?';
-        said.textContent = 'this deletes the walk and its recording for everyone' + answers + '. it can’t be undone. ' + who + ' is told it was removed.';
+        title.textContent = 'delete this ' + thing + ' for good?';
+        said.textContent = 'this deletes the ' + thing + ' and its recording for everyone' + answers + '. it can’t be undone. ' + who + ' is told it was removed.';
         go.textContent = 'delete for good';
       } else { say(BROKEN); return; }
       buttons.hidden = false;
@@ -97,7 +146,7 @@ description: hide, un-hide or delete a reported walk.
       ask(action === 'delete' ? 'delete' : 'go').then(function (a) {
         if (a.result === 'deleted') {
           buttons.hidden = true;
-          say(['deleted.', name(a) + ' is gone for everyone, with its recording and its answers. ' + who + ' has been told it was removed.']);
+          say(['deleted.', name(a) + ' is gone for everyone, with its recording' + (thing === 'walk' ? ' and its answers' : '') + '. ' + who + ' has been told it was removed.']);
         } else if (a.result === 'hidden') {
           buttons.hidden = true;
           say(['hidden.', 'it’s hidden from everyone but ' + who + '. to show it again, use “un-hide it” in the same email.']);
