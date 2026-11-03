@@ -7,7 +7,7 @@ description: what can i walk with you? collects, why, who can see it, and how to
 
 # privacy policy
 
-<p class="updated">last updated November 1, 2026</p>
+<p class="updated">last updated November 3, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -37,6 +37,7 @@ this policy covers the app and this website.
 - **your age: only "18 or older: yes or no"**, and when it was checked. the app asks for your date of birth only to check this. the date itself is never kept - not on your phone, not on our server. if the answer is "no", everything that account posted is hidden from everyone.
 - **the agreements you tick**, so there's a record: the sign-up box (the terms, this policy, and that you're 18 or older), the community rules before your first walk, and agreeing to updated terms - which box, its exact words and the date.
 - **your choices in settings**: private profile, "walking isn't possible for me" (we don't ask why), "hide walks with sensitive topics", "remind me if i talk while paused", your "share in other media" default, your notification choices, and your answer to the AI check question below. only you can see them.
+- **walks you save** (the bookmark on a walk), so they're waiting in "saved walks" on any phone. only you can see them: the talker isn't told, there's no count, and nobody else can see what you saved. a saved walk you can no longer see quietly leaves the list, and a walk its talker deletes is removed from it.
 
 ### your recordings
 
