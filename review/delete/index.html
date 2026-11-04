@@ -75,7 +75,7 @@ description: hide, un-hide or delete a reported walk.
       return fetch(FN, { method: 'POST', cache: 'no-store', credentials: 'omit', referrerPolicy: 'no-referrer', body: new URLSearchParams({ t: t, step: step }) }).then(function (r) { return r.json(); });
     }
     var STATUS = { clear: 'clear - nothing broke the rules.', approved: 'clear - nothing broke the rules.', held: 'held', blocked: 'not allowed.', rejected: 'not allowed.', checking: 'still being checked.', failed: 'not checked yet.' };
-    var REASONS = { violence: 'graphic violence', self_harm: 'details of self-harm', harm_appealing: 'makes harm sound appealing', sexual: 'sexual detail', cruelty: 'cruelty', private_people: 'exposing private people', threats_hate: 'threats or hate' };
+    var REASONS = { violence: 'graphic violence', self_harm: 'details of self-harm', harm_appealing: 'makes harm sound appealing', sexual: 'sexual detail', cruelty: 'cruelty', private_people: 'might identify a private person', threats_hate: 'threats or hate' };
     function el(tag, text, cls) { var e = document.createElement(tag); e.textContent = text; if (cls) e.className = cls; return e; }
     function when(at) { var d = new Date(at); return isNaN(d.getTime()) ? '' : d.toISOString().slice(0, 16).replace('T', ' ') + ' UTC'; }
     function details(d) {
