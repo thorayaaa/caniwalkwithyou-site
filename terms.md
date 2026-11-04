@@ -7,7 +7,7 @@ description: the rules for using can i walk with you?, in plain words.
 
 # terms
 
-<p class="updated">last updated November 1, 2026</p>
+<p class="updated">last updated November 3, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -102,7 +102,7 @@ also don't:
 
 you need the consent of anyone who can be identified in what you post (by their voice, their face, or their name). **in California, recording a confidential conversation needs the consent of everyone in it** (California Penal Code section 632), and other places have similar laws. don't record anyone's private conversation, even by accident in the background, and don't post a recording of someone who asked you not to. a listener's microphone is on only during their turn to answer; the app tells them before they start.
 
-you'll often walk in public, where other people's voices can be heard in the background. keep it that way: don't follow, film or record anyone on purpose, don't name, describe or expose a private person so they can be recognised, and stop or re-record if someone near you is having a private conversation. the AI check holds recordings that name or expose private people. **if you're not on the app and you hear yourself in a walk**, or someone talks about you in a way you didn't agree to, use the takedown form on our [support page](/support/#takedown) (or write to hello@caniwalkwithyou.com) with the walk's link or the talker's name, and we'll look at it, and take it down when it breaks these rules.
+you'll often walk in public, where other people's voices can be heard in the background. keep it that way: don't follow, film or record anyone on purpose, don't name, describe or expose a private person so they can be recognised, and stop or re-record if someone near you is having a private conversation. the AI check holds recordings that could identify or target a private person (never just for saying a name). leave out details that could identify someone. change names if you need to. **if you're not on the app and you hear yourself in a walk**, or someone talks about you in a way you didn't agree to, use the takedown form on our [support page](/support/#takedown) (or write to hello@caniwalkwithyou.com) with the walk's link or the talker's name, and we'll look at it, and take it down when it breaks these rules.
 
 ## 11. posting anonymously
 
