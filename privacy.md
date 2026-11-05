@@ -7,7 +7,7 @@ description: what can i walk with you? collects, why, who can see it, and how to
 
 # privacy policy
 
-<p class="updated">last updated November 3, 2026</p>
+<p class="updated">last updated November 5, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -61,7 +61,7 @@ when you post a walk for everyone, or send or share an answer, it's checked befo
 - **your phone turns the recording into text** with a time for each word, using Apple's speech recognition **on your phone** - the recording isn't sent anywhere for this. iOS asks you once to allow speech recognition. if your phone can't make the text, or you've turned speech recognition off, a speech-to-text company, Deepgram, turns the recording into text on our server instead (see the next point), and the AI checks that text before anyone else can hear it.
 - **what Anthropic gets:** the text with its word times, and the walk's name, description, spot names and topics (for an answer: your note). **not** your recording, name, handle, email, account id, city or location. Anthropic (Claude) checks it against our community guidelines. under its commercial terms it **doesn't use it to train its models**, and deletes it within 30 days - except that it can keep content its own safety systems flag as breaking its usage policy for up to 2 years.
 - **if your phone can't make the text, or someone reports a walk or an answer,** a speech-to-text company, Deepgram, turns its recording into text so the AI check can read what was really said. this happens only in those two cases, and only if the person who made it said ok to the AI check (if they didn't, nothing is sent to Deepgram, and their walks and answers stay just for them until they turn the check on). Deepgram gets only the recording's sound - not your name, handle, email, account id, city or location, and not even a link to where it's stored. every request opts out of Deepgram's model improvement program, so Deepgram **doesn't use the recording to train or improve its models**, and keeps it only while turning it into text.
-- **what we keep:** the result (clear, not allowed or held), the moments and short quotes it flagged and which rule, and any topics it found (below). and **the text version**, kept privately on our server so a person on our team can review them if needed. it's never shown to other people. **it's deleted as soon as its walk or answer is deleted.**
+- **what we keep:** the result (clear, not allowed or held), the moments and short quotes it flagged and which rule, and any topics it found (below). and **the text version**, kept privately on our server so a person on our team can review it when the check holds it or someone reports it. it's never shown to other people. **it's deleted as soon as its walk or answer is deleted.**
 - **people on our team** see held and reported items, their text, the flagged quotes and the poster's handle, and can listen to the recording. we're told about them by email, with the walk's name, the flagged quotes and private links to the recording (and, for a report, its photos) that stop working after 7 days. those emails stay in our own inbox.
 - **we never identify anyone by their voice.** we don't make voiceprints or use voices to recognise people.
 

@@ -7,7 +7,7 @@ description: the rules for using can i walk with you?, in plain words.
 
 # terms
 
-<p class="updated">last updated November 3, 2026</p>
+<p class="updated">last updated November 5, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -131,7 +131,7 @@ people talk about real things on their walks: grief, heartbreak, hard days. that
 
 ## 15. private answers
 
-an answer you send to a talker is private: only that talker can hear it in the app. we may still listen to it, read its text version, or review it to keep people safe - for example, when it's checked (section 9), after a report, or when the law requires it.
+an answer you send to a talker is private: only that talker can hear it in the app. we may still listen to it, read its text version, or review it to keep people safe - only when the check holds it (section 9), when you ask a person to look, after a report, or when the law requires it.
 
 ## 16. reporting, blocking and moderation
 
