@@ -14,7 +14,7 @@ description: the rules for using can i walk with you?, in plain words.
 
 - can i walk with you? is talk-walks: people talk while they walk, and strangers walk with them from anywhere, listening and answering by voice.
 - you must be 18 or older.
-- talkers are recorded (voice and path). a listener's microphone is on only during their turn to answer, and they're told before they start.
+- talkers are recorded (voice and path). during a walk-with, a listener's microphone is on so they can answer hands-free, and only their answers (their turns and their note at the end) are kept - nothing else is saved, sent or listened to. they're told before they start.
 - you decide who hears what you said: just you, the talker, or everyone - under your name or anonymously.
 - if you say ok, your words are turned into text on your phone and checked automatically by an AI before anyone else hears them. if you say no, what you post stays just for you until you turn the check on. if your phone can't make the text, or a recording is reported, a speech-to-text service turns it into text for that check. the check can make mistakes, and before anything is posted you can ask for a person to look. we can't promise when.
 - what you make stays yours. you let us run it in the app. "share in other media" is a separate switch, off unless you turn it on.
@@ -43,7 +43,7 @@ you must be at least 18 years old, and able to make a binding contract, to use t
 ## 4. what a talk-walk is
 
 - **talkers** record a talk-walk while they walk: they talk as if a stranger were walking next to them. they can mark spots along the way (with photos or videos), and "pass the mic" at moments they choose, to ask the listener something.
-- **listeners** walk with a talk-walk from wherever they are. at each pass of the mic, the listener's microphone turns on and it's their turn to answer out loud. they can redo, skip or say "i'm done", with a button or by saying it (voice commands). at the end they can say anything back.
+- **listeners** walk with a talk-walk from wherever they are. their microphone is on during the walk-with so they can answer hands-free; at each pass of the mic it's their turn to answer out loud. they can redo, skip or say "i'm done", with a button or by saying it (voice commands, heard only during their turn). at the end they can leave a note. only their turns and that note are kept.
 - **answers** go privately to the talker, unless the listener chooses to share them publicly under the walk, or keep them just for themselves.
 - **your journal.** a talker can walk their own walk and answer their own questions; that's a journal entry only they can hear.
 - **posting.** a talker posts a walk as themselves (their @handle) or anonymously, and can add a route map (the start and end are always hidden by the amount the talker chooses), a cover photo, spot photos, topics, a heads-up for sensitive topics, and a changed voice instead of their own.
@@ -100,7 +100,7 @@ also don't:
 
 ## 10. recording other people
 
-you need the consent of anyone who can be identified in what you post (by their voice, their face, or their name). **in California, recording a confidential conversation needs the consent of everyone in it** (California Penal Code section 632), and other places have similar laws. don't record anyone's private conversation, even by accident in the background, and don't post a recording of someone who asked you not to. a listener's microphone is on only during their turn to answer; the app tells them before they start.
+you need the consent of anyone who can be identified in what you post (by their voice, their face, or their name). **in California, recording a confidential conversation needs the consent of everyone in it** (California Penal Code section 632), and other places have similar laws. don't record anyone's private conversation, even by accident in the background, and don't post a recording of someone who asked you not to. during a walk-with a listener's microphone is on so they can answer hands-free, and only their answers (their turns and their note at the end) are kept - nothing else is saved, sent or listened to; the app tells them before they start.
 
 you'll often walk in public, where other people's voices can be heard in the background. keep it that way: don't follow, film or record anyone on purpose, don't name, describe or expose a private person so they can be recognised, and stop or re-record if someone near you is having a private conversation. the AI check holds recordings that could identify or target a private person (never just for saying a name). leave out details that could identify someone. change names if you need to. **if you're not on the app and you hear yourself in a walk**, or someone talks about you in a way you didn't agree to, use the takedown form on our [support page](/support/#takedown) (or write to hello@caniwalkwithyou.com) with the walk's link or the talker's name, and we'll look at it, and take it down when it breaks these rules.
 
