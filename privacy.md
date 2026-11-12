@@ -7,7 +7,7 @@ description: what can i walk with you? collects, why, who can see it, and how to
 
 # privacy policy
 
-<p class="updated">last updated November 5, 2026</p>
+<p class="updated">last updated November 12, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -17,13 +17,14 @@ description: what can i walk with you? collects, why, who can see it, and how to
 - before anything is shared, and only if you say ok, your phone turns it into text, and an AI service (Anthropic) checks only that text - never the recording. if your phone can't turn it into text, or a recording is reported, a speech-to-text service (Deepgram) turns it into text for that check. neither uses it to train AI.
 - we never identify anyone by their voice. no voiceprints.
 - we don't sell your data, show ads, or track you across other apps and websites.
+- if you subscribe, Apple sells and bills it, and we never see your card. RevenueCat keeps track of who's subscribed for us, and gets only a random account id and the purchase information - never your name, @username or email.
 - you can delete a walk, an answer, or your whole account at any time in the app, and it's deleted from the app right away.
 - questions: hello@caniwalkwithyou.com
 </div>
 
 ## who we are
 
-can i walk with you? is an iPhone app for talk-walks: people talk while they walk, and strangers walk with them from anywhere, listening and answering by voice. "we", "us" and "the app" mean Hey Stranger LLC, a California limited liability company, which runs the app. you can reach us at hello@caniwalkwithyou.com, or by post at 1872 Lexington Ave #143, New York, NY 10035.
+can i walk with you? is an iPhone app for talk-walks: people talk while they walk, and strangers walk with them from anywhere, listening and answering by voice. "we", "us" and "the app" mean Hey Stranger LLC, a California limited liability company, which runs the app. you can reach us at hello@caniwalkwithyou.com, or by post at 1872 Lexington Ave, Ste 143, New York, NY 10035.
 
 this policy covers the app and this website.
 
@@ -37,6 +38,8 @@ this policy covers the app and this website.
 - **your age: only "18 or older: yes or no"**, and when it was checked. the app asks for your date of birth only to check this. the date itself is never kept - not on your phone, not on our server. if the answer is "no", everything that account posted is hidden from everyone.
 - **the agreements you tick**, so there's a record: the sign-up box (the terms, this policy, and that you're 18 or older), the community rules before your first walk, and agreeing to updated terms - which box, its exact words and the date.
 - **your choices in settings**: private profile, "walking isn't possible for me" (we don't ask why), "hide walks with sensitive topics", "remind me if i talk while paused", your "share in other media" default, your notification choices, and your answer to the AI check question below. only you can see them.
+- **"just this time":** when a walk or your answers barely moved, you can choose to share them once without walking. that choice is kept privately beside that one walk (or walk-with) - nobody else can tell how it was shared - and it's deleted with it.
+- **walk reminders** you set ("want a reminder to walk this again?"): which walk, when, and how often. your phone shows them itself, and they're kept with your account so a new phone sets them up again. only you can see them.
 - **walks you save** (the bookmark on a walk), so they're waiting in "saved walks" on any phone. only you can see them: the talker isn't told, there's no count, and nobody else can see what you saved. a saved walk you can no longer see quietly leaves the list, and a walk its talker deletes is removed from it.
 
 ### your recordings
@@ -77,12 +80,21 @@ people talk about hard things on their walks - grief, illness, abuse, addiction,
 
 - **talkers:** while you record a talk-walk (including while it's paused), the app follows your location to draw the path you walk and place the spots you mark. if you allow it, this keeps working with the screen locked - only while that recording is going. your iPhone shows the location indicator whenever this happens. the whole path is uploaded with your walk and kept privately for you. your phone turns the walk's first point into its **city and country** (Apple does this for us).
 - **what others can see of your path:** never its start or its end. you choose how much is cut off before it's shared - about 150, 400 or 800 meters, measured along the path - or hide your route completely. **spots on the part of the route that's shown appear on its map where you marked them**; spots in the hidden start and end, or on a walk whose route is hidden, are shown without a place. the city where your walk started is shown with it, including on anonymous walks.
+- **hearing answers sent to you:** the first 20 seconds of answers someone sent you play anywhere; after that they play while you walk (unless "walking isn't possible for me" is on, or you choose "on a break" or "just this time"). your phone senses that you're walking - from GPS and your step count - **on your phone only**. if you allow it, this keeps working with your phone locked while the answers play, and your iPhone shows the location indicator. **nothing about it is sent to us or kept**: not where you were, not your steps, not whether you walked. nobody - the person who sent the answers included - can see it.
 - **listeners:** while you walk with someone, your phone uses your location to add up **how far you moved and for how long** (so a walk that barely moved stays just for you), and records **the path you walk** on your phone. at the start, your phone turns your location into **your city's name** (Apple does this for us); only the city is saved, and it's shown with your answers, including anonymous ones. your path is sent only if you choose to show your route with your answers, and then without its start and end.
-- the app doesn't use your location when no walk is going.
+- the app doesn't use your location when no walk is going and no answers are playing.
 
 ### motion
 
-while you record or listen, your phone counts **your steps** (Apple's motion & fitness), only on your phone, to help decide - together with GPS - whether you were really walking, so a walk counts even when GPS is patchy. **step counts are never sent to us or kept anywhere off your phone**, and nobody else ever sees them: we get only a yes or no, whether your phone says you walked enough. nothing else about your body or health is read.
+while you record, walk with someone or hear answers sent to you, your phone counts **your steps** (Apple's motion & fitness), only on your phone, to help decide - together with GPS - whether you were really walking, so a walk counts even when GPS is patchy. **step counts are never sent to us or kept anywhere off your phone**, and nobody else ever sees them: we get only a yes or no, whether your phone says you walked enough. nothing else about your body or health is read.
+
+### miles walked
+
+from the distances already kept with your walks and walk-withs (from GPS, and your phone's own count of how far you moved), our server adds up **how far you've walked, all time**. stretches covered faster than about 10 mph don't count, so a car or a bike doesn't. step counts aren't used. your total and your place on "most miles walked" are shown on your profile and on that list - **never where you walked, which walk, or when**. if your profile is public, anyone who can open it sees them, including people who aren't signed in. a private profile's miles are shown only to you.
+
+### testers
+
+if you use a test version of the app from TestFlight before it launches, your phone sends our server **Apple's signed statement about the app it's running** (which build, that it came from TestFlight, and a code Apple gives each Apple account for this app). we check Apple's signature and keep only that code, the build number and the date, with your account - so one Apple account counts once. it's used only to make testers original walkers and free for testers. nobody else can see it, and it's deleted with your account.
 
 ### usage numbers
 
@@ -93,7 +105,7 @@ while you record or listen, your phone counts **your steps** (Apple's motion & f
 
 ### notifications
 
-if you turn notifications on, we keep your iPhone's notification token and your notification choices, so we can tell you when someone walks with you or answers you, when the talker hears your answers, when someone follows you or asks to, when someone you follow posts a walk, and when your walk or answer has been checked. a notification's record is deleted 7 days after it's sent. what shows in the app's bell is made from the activity itself, so it goes when that activity is deleted.
+if you turn notifications on, we keep your iPhone's notification token and your notification choices, so we can tell you when someone walks with you or answers you, when the talker hears your answers, when someone follows you or asks to, when someone you follow posts a walk, when your walk or answer has been checked, and once if you become an original walker. walk reminders are your phone's own notifications, set up by the app. a notification's record is deleted 7 days after it's sent. what shows in the app's bell is made from the activity itself, so it goes when that activity is deleted.
 
 ### reports and blocks
 
@@ -113,14 +125,16 @@ can i walk with you? started as an app for walking routes. if you used that vers
 - **a private profile:** people you haven't approved see your handle, photo, bio, Instagram username and those two counts - but not your display name, your walks, or the people you walked with. a walk you post for everyone from a private profile reaches only the people you've approved, unless you post it anonymously.
 - **a walk for everyone**, once it's passed its check, can be heard by anyone signed in (except people you've blocked, and people who hide walks with sensitive topics, if yours has them) - with its name, description, topics, heads-up, spots, photos, city and (unless you hid it) its route without its start and end. **people who aren't signed in**, inside the app, can see a walk's card (its name, description, topics and heads-up, length, how many questions it asks, when it was posted, its city, and your name and photo unless it's anonymous) but can't hear it or see its cover, photos or route. "just me" walks, journal entries and walks saved for later are yours alone.
 - **anonymous** walks and answers show "anonymous" - never your name, handle or photo - and never appear on your profile. their city still shows. we still know who posted them (see our terms).
-- **answers:** "keep it for myself" - only you. "send it to [talker]" - only the talker. "share it publicly" - anyone who can hear that walk, under it; if it isn't anonymous, it also appears on your profile, for people who can see your profile. if your profile is private, a public answer is shown under your @handle (not your display name) to anyone who can hear the walk. answers saved for later reach nobody until you send them.
+- **answers:** "keep for myself" - only you. "send to" and the talker's name - only the talker. "share publicly" - anyone who can hear that walk, under it; if it isn't anonymous, it also appears on your profile, for people who can see your profile. if your profile is private, a public answer is shown under your @handle (not your display name) to anyone who can hear the walk. answers saved for later reach nobody until you send them.
 - **who walked a walk:** a walk shows how many people walked it (everyone who finished it, including people who kept their answers private - counted, never named). the list under it names only people who shared their answers publicly; the talker also sees who sent answers to them.
 - **the top list:** walks that many people walked can appear in the app's "top" list (by week, month and all time, in the world, a country or a city), which people who aren't signed in can see too. a walk in the top 10 shows its place on the walk and on your profile.
+- **miles walked:** your total and your place on "most miles walked" (see "miles walked") - only if your profile is public.
+- **original walker:** the first 100 people get an "original walker" mark on their profile, which anyone who can open the profile sees. nobody can see why you got it, or whether you pay.
 - **the lock screen:** while someone listens to your walk, their iPhone's lock screen shows the walk's name, your name (or "anonymous"), its city and who's speaking - never what anyone said.
 - **"share in other media":** only a walk or answer whose switch you turned on (it's off unless you do) may be featured by us in other media, like videos, books or films - with credit to your @handle, or as "anonymous" with no name. only answers shared publicly can be featured. your switch and its history are seen only by you and us.
 - **blocking** someone means they can't see or hear your walks or answers, or send you answers, and you won't see theirs - anonymous ones included. they aren't told.
 - **in lists, cards and notifications**, a private account appears by its @username, never its display name.
-- **never shown to anyone else:** your age answer, drafts, saved walks, your journal, your check results (except the topics and heads-up shown with a walk or an answer), your settings, who you've blocked, and your reports.
+- **never shown to anyone else:** your age answer, drafts, saved walks, walk reminders, your journal, your check results (except the topics and heads-up shown with a walk or an answer), your settings, who you've blocked, and your reports.
 
 ## who helps us run the app
 
@@ -130,7 +144,8 @@ each service gets only what it needs to do its job for us, and works for us unde
 - **Anthropic** (Claude) checks the text of walks and answers before they're shared (see "the AI check").
 - **Deepgram** turns a walk's or an answer's recording into text, only when the phone can't make the text itself or someone reports it (see "the AI check").
 - **Resend** sends the app's emails (sign-up codes, password resets and email changes, and reports and held items to us).
-- **Apple:** Sign in with Apple, notifications, speech recognition on your phone (the app doesn't send recordings to Apple for it), turning a location into a city name, step counting on your phone, maps, and the lock-screen card while you walk.
+- **RevenueCat** keeps track of subscriptions for us: whether you're in your free week, subscribed, canceled or ended, and when it renews. it gets **only your account id** (a random code - never your name, @username or email) and **the purchase information** Apple gives about your subscription (which plan, when it started, renews or ends, the price and currency, whether it was a test purchase, and refunds), with the country and language of your App Store account. like any service the app connects to, it sees your phone's internet address when the app checks your subscription. no advertising or device identifiers are sent, and it never gets your recordings, walks, answers, photos or location.
+- **Apple:** Sign in with Apple, notifications, speech recognition on your phone (the app doesn't send recordings to Apple for it), turning a location into a city name, step counting on your phone, maps, the lock-screen card while you walk, the subscription (sold and billed by Apple), and the signed statement that a test version came from TestFlight.
 - **OpenStreetMap** for place search in the first version's route features, and **Cloudflare** for the "not a bot" check at sign-up when it's on.
 - this website is hosted on **GitHub Pages**. it has no cookies, analytics or tracking.
 
@@ -167,7 +182,7 @@ when you delete a walk or an answer, it's deleted from the app right away.
 - **a journal entry:** open your journal and delete that day.
 - **your account:** your profile → settings → delete account, then type "delete".
 
-**what deleting your account removes, straight away:** your account, profile and photo; your walks, answers and journal, with their recordings, voice versions, photos and videos; your drafts and saved walks; their text versions and checks; your follows, blocks, settings and notification token; your age answer; your walk club answer; the steps you reached; your "share in other media" history; and the record of the agreements you ticked. if you signed in with Apple, we ask Apple to disconnect the app from your Apple ID.
+**what deleting your account removes, straight away:** your account, profile and photo; your walks, answers and journal, with their recordings, voice versions, photos and videos; your drafts, saved walks and walk reminders; their text versions and checks; your miles walked; your tester record; your follows, blocks, settings and notification token; your age answer; your walk club answer; the steps you reached; your "share in other media" history; and the record of the agreements you ticked. if you signed in with Apple, we ask Apple to disconnect the app from your Apple ID.
 
 **what's kept:**
 
@@ -175,6 +190,7 @@ when you delete a walk or an answer, it's deleted from the app right away.
 - **your handle**, held for 30 days so nobody else can take it straight away, then removed.
 - **answers other people recorded to your walks** (above).
 - request counts, until their 30 days are up.
+- if you were an original walker, your spot's number with your account's random id (nothing else), so that spot is never given to anyone again.
 - a list of the ids (only the ids) of deleted walks and answers, so a phone can never upload them again.
 
 **copies that take a little longer to go:**
@@ -206,7 +222,11 @@ when you delete a walk or an answer, it's deleted from the app right away.
 
 ## paying
 
-nothing in the app costs money today, and we never see your card or bank details. if the app offers a subscription, it's sold and billed by Apple, and Apple tells us only whether you have an active subscription or free trial, and when it renews or ends. deleting your account doesn't cancel a subscription - cancel it in your iPhone's settings.
+the subscription ($1.99 a month after a 7-day free trial) is sold and billed by Apple. **we never see your card or bank details.** Apple tells RevenueCat, and RevenueCat tells our server, whether you're in your free week, subscribed, canceled, ended or refunded, or have a billing problem, and when it renews or ends. we keep that with your account only to decide whether you have access, and **nobody else can see it** - not followers, not anyone. it's deleted with your account.
+
+it's free for testers (people who tested the app before it launched).
+
+deleting your account doesn't cancel a subscription - cancel it first in settings › manage subscription, or in your iPhone's settings › your name › subscriptions. after you delete your account, RevenueCat keeps its record (the random account id and the purchase history) under its own privacy policy.
 
 ## people under 18
 
@@ -236,6 +256,7 @@ if we change this policy in a way that matters, we'll tell you in the app before
 ## contact
 
 Hey Stranger LLC
-1872 Lexington Ave #143, New York, NY 10035
+1872 Lexington Ave, Ste 143, New York, NY 10035
+hello@caniwalkwithyou.com
 
 questions, requests or worries about your privacy: hello@caniwalkwithyou.com
