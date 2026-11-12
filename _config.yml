@@ -1,7 +1,7 @@
 # The site's settings. Change the contact email HERE - every page reads it.
 title: can i walk with you?
 contact_email: hello@caniwalkwithyou.com
-last_updated: October 19, 2026
+last_updated: November 12, 2026
 
 # The report email's "hide it now" / "un-hide it" pages send their button here
 # (the report-review Edge Function). Nothing else on the site uses it.
@@ -11,7 +11,7 @@ review_function: https://pencwliltbpwagjteugt.supabase.co/functions/v1/report-re
 # pages simply leave these out - nothing half-written ever shows.
 operator_name: "Hey Stranger LLC"
 operator_kind: "a California limited liability company"
-minimum_age: "13"
+minimum_age: "18"
 governing_law: "the State of California"
 
 # Plain pages, no plugins, nothing that tracks anyone.
