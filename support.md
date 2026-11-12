@@ -7,7 +7,7 @@ description: help with can i walk with you? - and how to reach us.
 
 # support
 
-need help, found something broken, or want to report something? email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>. we read everything, and we'll get back to you as soon as we can.
+need help, found something broken, or want to report something? write to us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> and we'll look at it.
 
 ## common questions
 
@@ -24,11 +24,17 @@ you choose, every time, after the walk. a talk-walk: just you, or everyone. an a
 ### why can I only keep a walk for myself?
 talk-walks are about walking. if a walk (or your walk with someone) barely moved, it can only be kept for yourself. if walking isn't possible for you, turn on "walking isn't possible for me" in settings - no need to explain - and your walks and answers post like everyone else's.
 
+### why do I have to walk to hear answers?
+someone walked with you, so you walk to hear them. answers sent to you play for their first 20 seconds anywhere, then while you walk. sitting down? tap "on a break", or "can't walk?" › "just this time" to hear the rest. if walking isn't possible for you, turn on "walking isn't possible for me" in settings. your phone senses your walking itself - nothing about it is sent to us, and nobody else can see it.
+
 ### who can see that I walked with someone?
 a walk's page shows how many people walked it. only answers shared publicly are listed, with your name, or "anonymous" if you went anonymous. answers kept for yourself or sent only to the talker are counted but never named.
 
 ### why does it say "checking your walk"?
-everything shared with others is turned into text and checked against our community rules before anyone else hears it. it usually takes a minute. if part of it can't be shared, the app shows you the moment and why, and lets you cut that part, keep it just for you, or ask for a person to look. we can't promise when.
+everything shared with others is turned into text and checked against our community rules before anyone else hears it. it usually takes a minute. if part of it can't be shared, the app shows you the moment and why, and lets you cut that part, keep it just for you, or tap "ask a person to check it".
+
+### how much does it cost?
+can i walk with you? is $1.99/month after a 7-day free trial (or the price Apple shows in your country), sold and billed by Apple. a walk's 30-second preview is free. the subscription renews every month until you cancel. cancel any time, at least 24 hours before it renews: your profile → ⋯ → settings → manage subscription, or your iPhone's Settings → your name → Subscriptions. new phone? settings → restore purchases. it's free for testers. our [terms](/terms/) have the details.
 
 ### I forgot my password
 on the sign-in screen, tap "forgot password?" and enter your email or handle. we'll email you a code to set a new one. accounts made with Sign in with Apple don't have a password - just sign in with Apple again.
@@ -43,7 +49,7 @@ your profile → ⋯ → settings → "change email" or "change password".
 your profile → ⋯ → settings → private profile. then only people you approve see your walks and your name.
 
 ### the app can't hear me / doesn't know where I am
-recording and walking with someone need the microphone: Settings → Privacy & Security → Microphone → can i walk with you?. a walk's path needs location: Settings → Privacy & Security → Location Services → can i walk with you?. the app only follows your location while you record or listen to a walk.
+recording and walking with someone need the microphone: Settings → Privacy & Security → Microphone → can i walk with you?. a walk's path needs location: Settings → Privacy & Security → Location Services → can i walk with you?. the app only follows your location while you record a walk, walk with someone, or hear answers sent to you.
 
 ### my buttons aren't on the lock screen
 turn on Live Activities: Settings → can i walk with you? → Live Activities.
@@ -61,7 +67,7 @@ tap "⋯" on a walk, an answer or a profile, then "report" - pick a reason and a
 tap "unsubscribe" at the bottom of any of them - one tap and you're off the list.
 
 ### how do I delete a walk, or my account?
-a walk: open it, "⋯" → delete. your account: your profile → ⋯ → settings → delete account, then type "delete". deleting removes the recordings too. our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept.
+a walk: open it, "⋯" → delete. your account: your profile → ⋯ → settings → delete account, then type "delete". deleting removes the recordings too. deleting your account doesn't cancel a subscription - cancel it first. our [privacy policy](/privacy/#deleting-your-account) explains exactly what's removed and what's kept.
 
 <a id="takedown"></a>
 
@@ -192,5 +198,8 @@ to report something in the app, use "⋯" → report, or write to <a href="mailt
 ## more
 
 - [safety tips](/safety/)
+- [community guidelines](/guidelines/)
 - [privacy policy](/privacy/)
 - [terms](/terms/)
+
+**contact:** <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> · Hey Stranger LLC, 1872 Lexington Ave, Ste 143, New York, NY 10035
