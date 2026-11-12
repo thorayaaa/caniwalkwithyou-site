@@ -7,7 +7,7 @@ description: the rules for using can i walk with you?, in plain words.
 
 # terms
 
-<p class="updated">last updated November 5, 2026</p>
+<p class="updated">last updated November 12, 2026</p>
 
 <div class="short" markdown="1">
 **the short version**
@@ -20,13 +20,13 @@ description: the rules for using can i walk with you?, in plain words.
 - what you make stays yours. you let us run it in the app. "share in other media" is a separate switch, off unless you turn it on.
 - nobody has to do anything a talker says. stay aware of where you are. walking has risks, and you accept them.
 - the app isn't therapy. we don't monitor walks and can't respond to emergencies. if you or someone else is in danger, call your local emergency number. to talk to someone now, call or text 988 in the US.
-- the app is free to use today. if it ever offers a subscription, it's sold through Apple, and you choose whether to buy it.
+- can i walk with you? is a subscription: $1.99 a month after a 7-day free trial, sold and billed by Apple. it renews every month until you cancel, which you can do any time (settings › manage subscription). it's free for testers.
 - disagreements are settled by individual arbitration, not in court, and you can opt out within 30 days.
 </div>
 
 ## 1. agreeing to these terms
 
-these terms are an agreement between you and Hey Stranger LLC, a California limited liability company ("we", "us"), which makes can i walk with you? ("the app"). by creating an account or using the app, you agree to these terms, our [community guidelines](#community-guidelines) and our [privacy policy](/privacy/). if you don't agree, please don't use the app.
+these terms are an agreement between you and Hey Stranger LLC, a California limited liability company ("we", "us"), which makes can i walk with you? ("the app"). by creating an account or using the app, you agree to these terms, our [community guidelines](/guidelines/) and our [privacy policy](/privacy/). if you don't agree, please don't use the app.
 
 ## 2. you must be 18 or older
 
@@ -76,7 +76,7 @@ each walk you post, and each set of answers you send at the end of a walk, has i
 
 ## 8. using the app the right way
 
-follow our [community guidelines](#community-guidelines). they're in the app (settings → community guidelines, and on the sign-up screen). we have **zero tolerance for objectionable content and abusive users**.
+follow our [community guidelines](/guidelines/). they're in the app (settings → community guidelines, and on the sign-up screen) and at [caniwalkwithyou.com/guidelines](/guidelines/). we have **zero tolerance for objectionable content and abusive users**.
 
 also don't:
 
@@ -117,11 +117,11 @@ when you post a walk or an answer as "anonymous", other people in the app see "a
 - **making routes:** a route you make must use public places that are legal and reasonably safe to walk - never private property without permission, and never someone's home. that includes the start and every stop. prompts can't ask walkers to do anything risky.
 - **walking has risks** - traffic, uneven ground, weather, darkness, other people, places changing. by walking with the app (talking, listening, or walking a route), you accept those risks. **you're responsible for your own safety.**
 - **your health:** walk within your own limits, and check with a doctor if you're not sure walking is right for you.
-- **you have to be walking.** walks and answers post for others only if you were actually walking (about 100 meters, or about 2 minutes of moving or stepping). if walking isn't possible for you, you can say so in settings ("walking isn't possible for me"), no explanation needed.
+- **you have to be walking.** walks and answers post for others only if you were actually walking (about 100 meters, or about 2 minutes of moving or stepping). if walking isn't possible for you, you can say so in settings ("walking isn't possible for me"), no explanation needed, or choose "just this time" for one walk. **answers sent to you** play for their first 20 seconds anywhere, then while you walk - or choose "on a break" or "just this time".
 
 ## 13. your location
 
-while you record a talk-walk, the app records the path you walk, and while you listen, your phone records yours. on a talk-walk you post with its route shown, **the start and end are hidden** from everyone else by the amount you choose, and the spots on the part that's shown appear on its map where you marked them. you can hide the route completely. a listener's route is sent only if they choose to show it, without its start and end. the city where you walked shows with your walk or answers, even anonymous ones. in the first version's route features, a posted route, or a walk of a route, shows the streets it took to the people who can see it. you accept the risks of sharing where you walked. our [privacy policy](/privacy/) explains exactly what's recorded and when.
+while you record a talk-walk, the app records the path you walk, and while you listen, your phone records yours. on a talk-walk you post with its route shown, **the start and end are hidden** from everyone else by the amount you choose, and the spots on the part that's shown appear on its map where you marked them. you can hide the route completely. a listener's route is sent only if they choose to show it, without its start and end. while answers sent to you play, your phone senses whether you're walking - on the phone only; nothing about it is sent or kept. the city where you walked shows with your walk or answers, even anonymous ones. in the first version's route features, a posted route, or a walk of a route, shows the streets it took to the people who can see it. you accept the risks of sharing where you walked. our [privacy policy](/privacy/) explains exactly what's recorded and when.
 
 ## 14. not therapy, not advice
 
@@ -171,17 +171,22 @@ hello@caniwalkwithyou.com
 
 you can stop using the app and delete your account whenever you like (settings → delete account). we can suspend or end your access if you break these terms or the community guidelines, or to protect other people, and we may change or stop the app, or parts of it, at any time. sections 5, 6 (the exceptions), 7 (what's already out), 10, 11, 12, 14, 21, 22, 23, 24 and 26 still apply after your account ends.
 
-## 19. paid features
+## 19. the subscription
 
-- **the app is free to use today**, and nothing in it is charged.
-- if the app offers a subscription, it's sold and billed by Apple, through your Apple account, as an in-app purchase, and Apple's terms apply to it too. you'll see the price, how long it lasts and any free trial in the app before you buy, and nothing is charged unless you choose to subscribe.
-- subscriptions renew automatically unless you cancel at least 24 hours before the end of the trial or the current period. you can cancel any time in your iPhone's settings → your name → subscriptions.
-- refunds are handled by Apple, under Apple's rules - we can't give them ourselves.
+- **listening to walks and recording your own need a subscription: $1.99 a month after a 7-day free trial** (or the price Apple shows in your country). a walk's 30-second preview is free. it's sold and billed by Apple, through your Apple account, as an in-app purchase, and Apple's terms apply to it too. before you subscribe you see the price, how long it lasts and the free week, and nothing is charged unless you choose to subscribe.
+- **the free week** starts when you subscribe, once per Apple account. unless you cancel at least 24 hours before it ends, you're charged and the subscription renews every month until you cancel.
+- **cancel any time** in the app (settings › manage subscription, which opens Apple's own screen) or in your iPhone's settings › your name › subscriptions, at least 24 hours before the end of the free week or the current month. you keep access until the end of what you've already got.
+- **when it ends, your account, walks and answers stay.** subscribe again whenever you like (settings › subscribe again; there's no second free week).
+- **restore purchases** (settings) brings your subscription back on a new phone signed in to the same Apple account.
+- refunds are handled by Apple, under Apple's rules - we can't give them ourselves. a refunded subscription ends straight away.
+- deleting your account doesn't cancel a subscription - cancel it first.
+- it's free for testers (people who tested the app before it launched). that doesn't change what anyone else pays.
 - if we change a price, we'll tell you first, and you can cancel before it applies.
+- RevenueCat keeps track of subscriptions for us (section 20); our [privacy policy](/privacy/) says what it gets.
 
 ## 20. other services
 
-the app relies on services run by other companies: Apple (sign in with Apple, notifications, maps, step counting on your phone, turning a location into a city name, on-device speech recognition, and any payments), Anthropic (the AI check), Deepgram (turning a recording into text when the phone can't, or when it's reported), Supabase (where accounts and posts are stored), Resend (email), place search for the first version's route features (Apple Maps, OpenStreetMap), and Cloudflare (the check that you're not a bot, when it's on). they have their own terms and privacy policies, and we're not responsible for them. our [privacy policy](/privacy/) says what each one gets.
+the app relies on services run by other companies: Apple (sign in with Apple, notifications, maps, step counting on your phone, turning a location into a city name, on-device speech recognition, and any payments), Anthropic (the AI check), Deepgram (turning a recording into text when the phone can't, or when it's reported), Supabase (where accounts and posts are stored), Resend (email), RevenueCat (keeping track of subscriptions), place search for the first version's route features (Apple Maps, OpenStreetMap), and Cloudflare (the check that you're not a bot, when it's on). they have their own terms and privacy policies, and we're not responsible for them. our [privacy policy](/privacy/) says what each one gets.
 
 ## 21. "as is"
 
@@ -232,9 +237,9 @@ if you got the app from Apple's App Store:
 ## 27. contact
 
 Hey Stranger LLC
-1872 Lexington Ave #143, New York, NY 10035
+1872 Lexington Ave, Ste 143, New York, NY 10035
 
 - questions and help: hello@caniwalkwithyou.com
 - legal notices, copyright and opting out of arbitration: hello@caniwalkwithyou.com
 
-<a id="community-guidelines"></a>*the community guidelines are in the app: settings → community guidelines.*
+<a id="community-guidelines"></a>*the community guidelines are in the app (settings → community guidelines) and at [caniwalkwithyou.com/guidelines](/guidelines/).*
