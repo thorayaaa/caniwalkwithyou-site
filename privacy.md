@@ -87,11 +87,11 @@ people talk about hard things on their walks - grief, illness, abuse, addiction,
 
 ### motion
 
-while you record, walk with someone or hear answers sent to you, your phone counts **your steps** (Apple's motion & fitness), only on your phone, to help decide - together with GPS - whether you were really walking, so a walk counts even when GPS is patchy. **step counts are never sent to us or kept anywhere off your phone**, and nobody else ever sees them: we get only a yes or no, whether your phone says you walked enough. nothing else about your body or health is read.
+while you record, walk with someone or hear answers sent to you, your phone counts **your steps** (Apple's motion & fitness), only on your phone, to help decide - together with GPS - whether you were really walking, so a walk counts even when GPS is patchy. **step counts are never sent to us or kept anywhere off your phone**, and nobody else ever sees them: we get only a yes or no, whether your phone says you walked enough - and, when GPS measured almost nothing (walking in a room or on a treadmill), a distance your phone works out from your steps (about 0.73 m a step), for your miles walked. nothing else about your body or health is read.
 
 ### miles walked
 
-from the distances already kept with your walks and walk-withs (from GPS, and your phone's own count of how far you moved), our server adds up **how far you've walked, all time**. stretches covered faster than about 10 mph don't count, so a car or a bike doesn't. step counts aren't used. your total and your place on "most miles walked" are shown on your profile and on that list - **never where you walked, which walk, or when**. if your profile is public, anyone who can open it sees them, including people who aren't signed in. a private profile's miles are shown only to you.
+from the distances already kept with your walks and walk-withs (from GPS, and your phone's own count of how far you moved), our server adds up **how far you've walked, all time**. stretches covered faster than about 10 mph don't count, so a car or a bike doesn't. when GPS measured almost nothing (a room, a treadmill), the distance your phone worked out from your steps counts instead - never faster than about 10 mph either. your step count itself is never sent. your total and your place on "most miles walked" are shown on your profile and on that list - **never where you walked, which walk, or when**. if your profile is public, anyone who can open it sees them, including people who aren't signed in. a private profile's miles are shown only to you.
 
 ### testers
 
